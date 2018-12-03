@@ -1,0 +1,157 @@
+.phb{
+	/*border:1px solid red;*/
+	width:1420px;
+	height:2000px;
+	margin:auto;
+}
+.phb1{
+	/*border:1px solid black;*/
+	width:1418px;
+	height:300px;
+	background: rgb(0,0,0,0);
+	
+}
+.phb11{
+	/*border:1px solid black;*/
+	width:380px;
+	height:200px;
+	margin:auto auto;
+	position: relative;
+	top:50px;
+	font-family: 楷体;
+	font-size: 38px;
+	
+}
+.phb11 h2{
+	text-align: center;
+
+}
+.phb11 h1{
+	text-align: center;
+	position: relative;
+	top:-50px;
+}
+.phb2{
+	/*border:1px solid black;*/
+	width:1011px;
+	height:150px;
+	padding-left: 407px;
+	/*border: 1px solid rgb();*/
+}
+.phb21{
+	/*border:1px solid black;*/
+	width:300px;
+	height:90px;
+	float:left;
+	margin-top:40px;
+	font-family: "微软雅黑";
+	font-size: 60px;
+	text-align: center;
+}
+.phb3{
+	/*border:1px solid red;*/
+	width:1418px;
+	height:710px;
+	margin-top:10px;
+}
+.phb3 ol{
+	/*border:1px solid black;*/
+	width:287px;
+	height:698px;
+	float: left;
+	margin-left:20px;
+	position: relative;
+	top:-16px;
+}
+.phb311{
+	/*border:1px solid red;*/
+	width: 152px;
+	height:198px;
+	float:left;
+}
+.phb312{
+	/*border:1px solid red;*/
+	width: 160px;
+	height:198px;
+	float:right;
+	font-size:10px;
+	line-height: 20px;
+	overflow: hidden;
+	
+}
+.phb3 li{
+/*	border:1px solid red;*/
+	width:285px;
+	height:60px;
+	line-height:60px;
+	margin-top: 2px;
+}
+.phb4{
+	/*border:1px solid red;*/
+	width:1418px;
+	height:710px;
+	margin-top:10px;
+}
+.phb4 ol{
+	/*border:1px solid black;*/
+	width:287px;
+	height:698px;
+	float: left;
+	margin-left:20px;
+	position: relative;
+	top:-16px;
+}
+.phb4 li{
+	/*border:1px solid red;*/
+	width:285px;
+	height:60px;
+	line-height:60px;
+	margin-top:2px;
+}
+.num{
+	display:inline-block;
+	vertical-align:middle;
+	position:absolute;
+	bottom:0;
+	left:0;
+	display:inline-block;
+	width:50px;
+	height:40px;
+	text-indent:2px;
+	line-height:60px;
+	color:#fff;
+	font-size:20px;
+	font-style:italic;
+	
+	background:#ff6428;
+	border-radius:0 100% 0 0;
+	background-color:#ff6428;
+	display:inline-block;
+	width:34px;
+	height:50px;
+	text-align:center;
+	color:#aaa;
+	font-size:20px;
+	font-style:italic;
+	font-family:PingFangSC-Light;
+	vertical-align:top;
+	color:black;
+	display:inline-block;
+	vertical-align:middle;
+}
+/*.active{
+	border-left: 3px solid #62ab00;
+	background: #f3f7ed;
+	color: #62ab00;
+	}*/
+/*.phb21:hover{
+	border-left: 3px solid #62ab00;
+	background: darkorange;
+	color: #62ab00;
+	}
+.phb22:hover{
+	border-left: 3px solid #62ab00;
+	background: darkorange;
+	color: #62ab00;
+	}
+	*/

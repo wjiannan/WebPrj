@@ -1,0 +1,14 @@
+.grxx0{
+	list-style: none;
+}
+.grxx0 li{
+	border:1px solid red;
+	font-family: "微软雅黑";
+	font-size: 35px;
+	height:45px;
+	width:200px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	margin-left:5px;
+	float:left;
+}
