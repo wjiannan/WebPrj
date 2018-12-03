@@ -5,9 +5,9 @@
 	<head>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-		<link rel="stylesheet" type="text/css" href="../plugins/bootstrap-3.3.7-dist/css/bootstrap.min.css"/>
+		<link rel="stylesheet" type="text/css" href="/prison/plugins/bootstrap-3.3.7-dist/css/bootstrap.min.css"/>
 		<title>监狱管理_监狱信息</title>
-    <link rel="stylesheet" type="text/css" href="../css/warden-yz.css"/>
+    <link rel="stylesheet" type="text/css" href="/prison/css/warden-yz.css"/>
 	</head>
 	<body>
     <!-- 导航 -->
@@ -23,15 +23,15 @@
               <a href="#">监狱管理</a>
             </li>
             <li>
-              <a href="jailer_manage-yz.html">狱警管理</a>
+              <a href="jailer_manage-yz.jsp">狱警管理</a>
             </li>
             <li>
-              <a href="prisoner_manage-yz.html">囚犯管理</a>
+              <a href="prisoner_manage-yz.jsp">囚犯管理</a>
             </li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
             <li>
-              <a href="../index.html">退出账号</a>
+              <a href="/prison/index.jsp">退出账号</a>
             </li>
           </ul>
         </div>
@@ -48,18 +48,18 @@
 						</button>
           </li>
           <li role="presentation">
-            <button type="button" class="btn btn-default btn-lg btn-block my-left-nav-btn" onclick="location.href='warden_fund-yz.html'">
-							<a href="warden_fund-yz.html">监狱经费</a>
+            <button type="button" class="btn btn-default btn-lg btn-block my-left-nav-btn" onclick="location.href='warden_fund-yz.jsp'">
+							<a href="warden_fund-yz.jsp">监狱经费</a>
 						</button>
           </li>
           <li role="presentation">
-            <button type="button" class="btn btn-default btn-lg btn-block my-left-nav-btn" onclick="location.href='warden_jobs-yz.html'">
-							<a href="warden_jobs-yz.html">事务处理</a>
+            <button type="button" class="btn btn-default btn-lg btn-block my-left-nav-btn" onclick="location.href='warden_jobs-yz.jsp'">
+							<a href="warden_jobs-yz.jsp">事务处理</a>
             </button>
           </li>
           <li role="presentation">
-            <button type="button" class="btn btn-default btn-lg btn-block my-left-nav-btn" onclick="location.href='warden_mail-yz.html'">
-							<a href="warden_mail-yz.html">狱长信箱</a>
+            <button type="button" class="btn btn-default btn-lg btn-block my-left-nav-btn" onclick="location.href='warden_mail-yz.jsp'">
+							<a href="warden_mail-yz.jsp">狱长信箱</a>
             </button>
           </li>
         </ul>
@@ -79,7 +79,7 @@
         <p>狱警人数：<span>20</span></p>
         <p>关押人数：<span>200</span></p>
         <h3>区域划分</h3>
-        <img src="../img/prison_area-yz.png" >
+        <img src="/prison/img/prison_area-yz.png" >
         
         <br><br><br><br>
         <address>
@@ -95,8 +95,8 @@
     <!-- outer结束 -->
 		
 		<!-- 引入jquery -->
-		<script src="../plugins/jquery/jquery.min.js"></script>
+		<script src="/prison/plugins/jquery/jquery.min.js"></script>
 		<!-- 引入bootstrap.min.js -->
-		<script src="../plugins/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+		<script src="/prison/plugins/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
 	</body>
 </html>

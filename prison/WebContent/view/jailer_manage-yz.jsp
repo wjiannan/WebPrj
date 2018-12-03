@@ -5,9 +5,9 @@
 	<head>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-		<link rel="stylesheet" type="text/css" href="../plugins/bootstrap-3.3.7-dist/css/bootstrap.min.css"/>
+		<link rel="stylesheet" type="text/css" href="/prison/plugins/bootstrap-3.3.7-dist/css/bootstrap.min.css"/>
 		<title>狱警管理</title>
-    <link rel="stylesheet" type="text/css" href="../css/warden-yz.css"/>
+    <link rel="stylesheet" type="text/css" href="/prison/css/warden-yz.css"/>
 	</head>
 	<body>
     <!-- 导航 -->
@@ -20,13 +20,13 @@
         <div>
           <ul class="nav navbar-nav">
             <li>
-              <a href="warden_home-yz.html">监狱管理</a>
+              <a href="warden_home-yz.jsp">监狱管理</a>
             </li>
             <li class="active">
               <a href="#">狱警管理</a>
             </li>
             <li>
-              <a href="prisoner_manage-yz.html">囚犯管理</a>
+              <a href="prisoner_manage-yz.jsp">囚犯管理</a>
             </li>
           </ul>
         </div>
@@ -115,8 +115,8 @@
 		
 		
 		<!-- 引入jquery -->
-		<script src="../plugins/jquery/jquery.min.js"></script>
+		<script src="/prison/plugins/jquery/jquery.min.js"></script>
 		<!-- 引入bootstrap.min.js -->
-		<script src="../plugins/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+		<script src="/prison/plugins/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
 	</body>
 </html>
