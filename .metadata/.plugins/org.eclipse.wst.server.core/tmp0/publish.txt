@@ -1,3 +1,0 @@
-#Tomcat publish data
-#Sun Dec 02 17:16:55 CST 2018
-org.eclipse.jst.jee.server\:Trade=D\:\\apache-tomcat-8.0.37\\webapps\\Trade
