@@ -1,12 +1,14 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 
 	<head>
 		<meta charset="utf-8" />
-		<title>Buyerwish</title>
+		<title>Buyer</title>
 
 		<!--引入bootstrap样式-->
-		<link rel="stylesheet" type="text/css" href="../plugins/bootstrap-3.3.7-dist/css/bootstrap.min.css" />
+		<link rel="stylesheet" type="text/css" href="../plugins/bootstrap-3.3.7-dist/css/bootstrap.min.css"/>
 		<style type="text/css">
 			/*.main {
 				border: 1px solid red;
@@ -40,18 +42,6 @@
 			
 			div>a:active {
 				color: black;
-			}
-			.hd1{
-				float: left;
-			}
-			.hd2{
-				float: right;
-				margin-top: 17px;
-			}
-			.head1{
-				width: auto;
-				height: 60px;
-				/*border: 1px solid red;*/
 			}
 		</style>
 	</head>
@@ -97,131 +87,111 @@
 
 				<!--<div class="form-group">-->
 				<div class="col-sm-offset-1 col-sm-10 main">
-					<div class="col-sm-1 main">
+					<div class="col-sm-2">
 						<div class="row my_color">
-							<font size="4">全部功能</font>
+							<font size="6">全部功能</font>
 						</div>
+						<br /><br /><br />
 						<div class="row mg">
 							<a href="#">
-								<font size="2">愿望单</font>
+								<font size="4">愿望单</font>
 							</a>
-						</div>
+						</div><br />
 						<div class="row mg">
 							<a href="#">
-								<font size="2">订单记录</font>
+								<font size="4">订单记录</font>
 							</a>
-						</div>
+						</div><br />
 						<div class="row mg">
 							<a href="#">
-								<font size="2">评价管理</font>
+								<font size="4">评价管理</font>
 							</a>
-						</div>
+						</div><br />
 						<div class="row mg">
 							<a href="#">
-								<font size="2">退款服务</font>
-							</a>
-						</div>
-						<div class="row mg">
-							<a >
-								<font size="4">我要开店</font>
+								<font size="4">退款服务</font>
 							</a>
 						</div>
 					</div>
-					<div class="col-sm-11 main" style="background-image: url(../img/BuyerOrder.jpg);">
-						<div class="head1">
-							
-						
-							<div class="hd1">
-								<p style="font-size: 21px; margin-top: 19px; color: cadetblue;">商品</p>
-							</div>
-						
-								<div class="col-sm-6 col-sm-offset-3 hd2">
-									<div class="input-group">
-						                <input type="text" class="form-control" placeholder="请输入商品名称">
-						                <span class="input-group-btn">
-						                    <button class="btn btn-primary">搜索</button>
-						                </span>
-						            </div>
-								</div>
+					<div class="row mg">
+							<a >
+								<font size="4">我的店铺</font>
+							</a>
 						</div>
+					<div class="col-sm-10 main" style="background-image: url(../img/BuyerOrder.jpg);">
+						<p style="font-size: 30px; margin-top: 19px; color: cadetblue;">订单记录</p>
 						<hr>
 						<div class="table-responsive">
 							<table id="mytable" class="table">
 								<thead style="background-color: lightblue;">
 									<tr>
-										
-										<th>商品样例</th>
-										<th>介绍</th>
+										<th>订单号</th>
+										<th>下单时间</th>
+										<th>样式</th>
+										<th>商品名</th>
 										<th>数量</th>
 										<th>总价</th>
-										<th>操作</th>
 										<th></th>
 									</tr>
 								</thead>
 								<tbody>
 									<tr style="max-height: 100px;">
-										<td><img src="../img/one.jpg" style="max-height: 100px;"></td>
+										<td><div style="line-height: 100px;">12345678</div></td>
+										<td><div style="line-height: 100px;">2018.01.01</div></td>
+										<td><img src="../img/BuyerOrder1.jpg" style="max-height: 100px;"></td>
 										<td><div style="line-height: 100px;">
 											这是一商品名
 										</div>
-										
-										<td><div style="line-height: 100px;">10</div></td>
-										
 										</td>
-										
+										<td><div style="line-height: 100px;">10</div></td>
 										<td><div style="line-height: 100px;"><p>100</p></div></td>
 										<td><div style="line-height: 100px;"><button class="btn btn-primary">评价</button></div></td>
 									</tr>
 									<tr style="max-height: 100px;">
-										
-										<td><img src="../img/one.jpg" style="max-height: 100px;"></td>
+										<td><div style="line-height: 100px;">12345678</div></td>
+										<td><div style="line-height: 100px;">2018.01.01</div></td>
+										<td><img src="../img/BuyerOrder1.jpg" style="max-height: 100px;"></td>
 										<td><div style="line-height: 100px;">
 											这是一商品名
 										</div>
-										
-										<td><div style="line-height: 100px;">10</div></td>
-										
-										
 										</td>
-										
+										<td><div style="line-height: 100px;">10</div></td>
 										<td><div style="line-height: 100px;"><p>100</p></div></td>
 										<td><div style="line-height: 100px;"><button class="btn btn-primary">评价</button></div></td>
 									</tr>
 									<tr style="max-height: 100px;">
-										<td><img src="../img/one.jpg" style="max-height: 100px;"></td>
+										<td><div style="line-height: 100px;">12345678</div></td>
+										<td><div style="line-height: 100px;">2018.01.01</div></td>
+										<td><img src="../img/BuyerOrder1.jpg" style="max-height: 100px;"></td>
 										<td><div style="line-height: 100px;">
 											这是一商品名
 										</div>
-										
-										<td><div style="line-height: 100px;">10</div></td>
-										
 										</td>
-										
+										<td><div style="line-height: 100px;">10</div></td>
 										<td><div style="line-height: 100px;"><p>100</p></div></td>
 										<td><div style="line-height: 100px;"><button class="btn btn-primary">评价</button></div></td>
 									</tr>
 									<tr style="max-height: 100px;">
-										<td><img src="../img/one.jpg" style="max-height: 100px;"></td>
+										<td><div style="line-height: 100px;">12345678</div></td>
+										<td><div style="line-height: 100px;">2018.01.01</div></td>
+										<td><img src="../img/BuyerOrder1.jpg" style="max-height: 100px;"></td>
 										<td><div style="line-height: 100px;">
 											这是一商品名
 										</div>
-										
-										<td><div style="line-height: 100px;">10</div></td>
-																		
 										</td>
-										
+										<td><div style="line-height: 100px;">10</div></td>
 										<td><div style="line-height: 100px;"><p>100</p></div></td>
 										<td><div style="line-height: 100px;"><button class="btn btn-primary">评价</button></div></td>
 									</tr>
 									<tr style="max-height: 100px;">
-										<td><img src="../img/one.jpg" style="max-height: 100px;"></td>
+										<td><div style="line-height: 100px;">12345678</div></td>
+										<td><div style="line-height: 100px;">2018.01.01</div></td>
+										<td><img src="../img/BuyerOrder1.jpg" style="max-height: 100px;"></td>
 										<td><div style="line-height: 100px;">
 											这是一商品名
 										</div>
-										
-										<td><div style="line-height: 100px;">10</div></td>
-										
 										</td>
+										<td><div style="line-height: 100px;">10</div></td>
 										<td><div style="line-height: 100px;"><p>100</p></div></td>
 										<td><div style="line-height: 100px;"><button class="btn btn-primary">评价</button></div></td>
 									</tr>
@@ -239,6 +209,7 @@
 			
 		</script>
 		<script src="../plugins/jquery/jquery.min.js"></script>
+		<!--引入bootstrap.min.js-->
 		<script src="../plugins/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
 	</body>
 
