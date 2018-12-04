@@ -1,5 +1,0 @@
-package com.cx.dao;
-
-public interface ImessageDao {
-	void addMessage(Integer id, Integer senderId, Integer recipientId, String content);
-}

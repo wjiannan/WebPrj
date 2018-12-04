@@ -1,7 +1,0 @@
-package com.cx.dao;
-
-import com.cx.entity.Area;
-
-public interface IAreaDao {
-
-}

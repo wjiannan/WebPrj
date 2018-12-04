@@ -1,9 +1,0 @@
-package com.cx.dao;
-
-import com.cx.entity.Prisoner;
-
-public interface IPrisonerDao {
-	Prisoner getById(Integer id);
-	Prisoner getByName(String name);
-	
-}
