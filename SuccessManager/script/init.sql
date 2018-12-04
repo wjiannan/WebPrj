@@ -5,7 +5,7 @@ drop sequence tbl_star_id
 create sequence tbl_star_id star with 1000;
 
 drop sequence tbl_star_area_id;
-create sequence tbl_star_area_id star with 1000;
+create sequence tbl_star_area_id star with 500;
 
 create table tbl_star_area(
 	id number(7) primary key,
