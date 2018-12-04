@@ -1,5 +1,8 @@
 package com.cx.dao;
 
-public interface IAreaDao {
+import com.cx.entity.Area;
+import java.util.List;
 
+public interface IAreaDao{
+	List<Area> findAll();
 }

@@ -1,5 +1,15 @@
 package com.cs.dao;
 
-public class TestArea {
+import org.junit.Test;
 
+import com.cx.dao.IAreaDao;
+import com.cx.dao.impl.AreaDaoImpl;
+
+public class TestArea {
+	IAreaDao dao = new AreaDaoImpl();
+
+	@Test
+	public void testFindAll() {
+		
+	}
 }
