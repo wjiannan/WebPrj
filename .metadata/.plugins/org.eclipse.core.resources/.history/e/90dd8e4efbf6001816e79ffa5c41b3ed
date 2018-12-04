@@ -1,0 +1,10 @@
+package com.cx.entity;
+
+public class Area {
+	private String areaName;
+	private String areaMax;
+	
+	public Area() {
+		// TODO Auto-generated constructor stub
+	}
+}

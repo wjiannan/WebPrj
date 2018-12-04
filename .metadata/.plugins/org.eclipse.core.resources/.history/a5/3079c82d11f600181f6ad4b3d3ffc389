@@ -1,0 +1,83 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<link rel="stylesheet" type="text/css" href="plugins/bootstrap-3.3.7-dist/css/bootstrap.min.css"/>
+		<title>çç±ç³»ç»ç»é</title>
+		<style type="text/css">
+			.login{
+        width:800px;
+        
+        /**è®¾ç½®åè§**/
+        border-radius: 20px;
+        
+        /*è®¾ç½®è¾¹æ¡çé´å½±*/
+        box-shadow: 2px 2px 4px #000;
+      }
+		</style>
+	</head>
+	<body>
+		
+    <div class="container">
+			<div class="page-header col-md-offset-1">
+				<h1>å¥½åæ¥çç± <small>ä¸ä¸ªåæ»¡äººæå³æççç±</small></h1>
+			</div>
+      <form class="form-horizontal login">
+        <div style="height:50px"></div>
+				<div class="form-group">
+					<label for="inputIdentified" class="col-md-2 control-label">èº«ä»½</label>
+					<div class="col-md-8">
+						<select class="form-control">
+							<option>ç±è­¦</option>
+							<option>çç±é¿</option>
+							<option>æ³é¢</option>
+							<option>åç¯</option>
+						</select>
+					</div>
+				</div>
+				
+				<div class="form-group has-feedback">
+					<label for="inputName" class="col-md-2 control-label">ç¼å·</label>
+					<div class="col-md-8">
+						<input type="text" class="form-control"placeholder="ç¼å·" maxlength="5">
+						<span class="glyphicon glyphicon-user form-control-feedback"></span>
+					</div>
+				</div>
+				
+				<div class="form-group has-feedback">
+					<label for="inputPassword" class="col-md-2 control-label">å¯ç </label>
+					<div class="col-md-8">
+						<input type="password" class="form-control" placeholder="å¯ç " required>
+						<span class="glyphicon glyphicon-lock form-control-feedback"></span>
+					</div>
+				</div>
+				
+				<div class="form-group">
+					<div class="col-md-offset-2 col-md-10">
+						<div class="checkbox">
+							<label>
+								<input type="checkbox" value="remember-me">è®°ä½å¯ç 
+							</label>
+						</div>
+					</div>
+					<div class="form-group">
+						<div class="col-md-offset-2 col-md-2">
+							<button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+						</div>
+						<div class="col-md-2 col-md-offset-1"><a href="#" class="btn btn-lg btn-default btn-block">æ¸¸å®¢</a></div>
+					</div>
+				</div>
+      </form>
+
+    </div> <!-- /container -->
+
+		
+		<!-- å¼å¥jquery -->
+		<script src="plugins/jquery/jquery.min.js"></script>
+		<!-- å¼å¥bootstrap.min.js -->
+		<script src="plugins/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+	</body>
+</html>

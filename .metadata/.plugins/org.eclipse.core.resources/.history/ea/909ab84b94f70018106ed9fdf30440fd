@@ -1,0 +1,10 @@
+package com.cx.dao;
+
+import com.cx.entity.Jailer;
+import java.util.List;
+
+public interface IAreaDao{
+	List<Jailer> findAll();
+	
+	
+}

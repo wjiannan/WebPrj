@@ -1,0 +1,28 @@
+package com.cx.entity;
+
+import java.util.Date;
+
+/*
+ * 实体类
+ * 	id number(5),
+	name varchar2(20),
+	area varchar2(2),
+	in_date date DEFAULT to_date('2000-01-01', 'yyyy-mm-dd'),
+	out_date date DEFAULT to_date('2030-01-01', 'yyyy-mm-dd'),
+	credit number(5) DEFAULT 0,
+	status varchar2(10) DEFAULT 'common',
+	money number(5) DEFAULT 100,
+	constraint tbl_prisoner_id_pk primary key(id),
+	constraint tbl_prisoner_name_nn check(name is not null),
+	constraint tbl_prisoner_area_ck check(area in('C', 'D')),
+	constraint tbl_prisoner_area_fk foreign key(area) references tbl_area(area_name)
+ */
+
+public class Prisoner {
+	private Integer id;
+	private String name;
+	private Area area;
+	private Date inDate;
+	private Date outDate;
+	private 
+}

@@ -1,0 +1,7 @@
+package com.cx.dao.impl;
+
+import com.cx.dao.IAreaDao;
+
+public class AreaDaoImpl implements IAreaDao{
+	
+}

@@ -1,0 +1,14 @@
+package com.cx.entity;
+
+
+/*
+ * 实体类 - 武器库
+ * 	weapon_id number(6),
+	mode_id number(3),
+	user_id number(5) DEFAULT null,
+	constraint tbl_weaponry_id_pk primary key(weapon_id),
+	constraint tbl_weaponry_mode_nn check(mode_id is not null)
+ */
+public class Weaponry {
+
+}

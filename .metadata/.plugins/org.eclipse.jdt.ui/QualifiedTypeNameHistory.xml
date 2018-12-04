@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="org.junit.Test"/>
+<fullyQualifiedTypeName name="com.sun.xml.internal.bind.v2.schemagen.xmlschema.List"/>
+<fullyQualifiedTypeName name="org.omg.CORBA.COMM_FAILURE"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="com.sun.javafx.geom.Area"/>
+<fullyQualifiedTypeName name="com.cx.dao.IJailerDao"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="com.cx.entity.Jailer"/>
+<fullyQualifiedTypeName name="java.lang.SuppressWarnings"/>
+<fullyQualifiedTypeName name="com.cx.dao.IAreaDao"/>
+<fullyQualifiedTypeName name="com.cx.dao.impl.AreaDaoImpl"/>
+<fullyQualifiedTypeName name="com.cx.util.support.JdbcTemplate"/>
+<fullyQualifiedTypeName name="com.cx.util.support.IPreparedStatementCallBack"/>
+<fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
+<fullyQualifiedTypeName name="com.cx.util.support.IResultSetCallBack"/>
+<fullyQualifiedTypeName name="com.cx.entity.Area"/>
+<fullyQualifiedTypeName name="com.cx.entity.Prisoner"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="com.cx.entity.WeaponMode"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
+</qualifiedTypeNameHistroy>

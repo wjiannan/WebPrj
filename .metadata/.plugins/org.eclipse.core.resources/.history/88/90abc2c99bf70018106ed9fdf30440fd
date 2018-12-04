@@ -1,0 +1,14 @@
+package com.cx.dao;
+
+import com.cx.entity.Prisoner;
+
+public interface IPrisonerDao {
+	/*
+	 * @param id 囚犯id
+	 * @param name 囚犯姓名
+	 * 
+	 */
+	Prisoner getById(Integer id);
+	Prisoner getByName(String name);
+	
+}

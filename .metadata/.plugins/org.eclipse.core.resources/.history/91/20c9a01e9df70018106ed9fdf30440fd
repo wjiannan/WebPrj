@@ -1,0 +1,18 @@
+package com.cx.dao;
+
+import java.util.List;
+
+import com.cx.entity.WeaponMode;
+
+public interface IWeaponModeDao {
+//	查找所有武器类型
+	List<WeaponMode> findAll();
+	
+//	获取最大武器类型id
+	Integer getMaxId();
+	
+	/*
+	 * @param modeName 类型明
+	 */
+	void addMode(String modeName, Integer price=10000);
+}

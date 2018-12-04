@@ -1,0 +1,30 @@
+package com.cx.entity;
+
+import com.cx.entity.Area;
+
+
+/*
+ * 实体类
+	id number(5),
+	name varchar2(20),
+	area varchar2(2),
+	salary number(8,2) DEFAULT 3000,
+	credit number(5) DEFAULT 0,
+	constraint tbl_jailer_id_pk primary key(id),
+	constraint tbl_jailer_name_nn check(name is not null),
+	constraint tbl_jailer_area_fk foreign key(area) references tbl_area(area_name)
+ */
+
+public class Jailer {
+	private Integer id;
+	private String name;
+	private Area area;
+	private Double salary;
+	private Integer credit;
+	
+	public Jailer() {
+		
+	}
+	
+	
+}

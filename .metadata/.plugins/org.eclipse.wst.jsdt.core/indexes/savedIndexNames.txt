@@ -1,0 +1,7 @@
+INDEX VERSION 1.4+D:\projects\github\WebPrj\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+2730128077.index
+243667045.index
+1950402618.index
+3392754111.index
+1073114420.index
+2850010980.index
