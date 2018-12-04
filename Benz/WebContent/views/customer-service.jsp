@@ -72,14 +72,14 @@
 					</div>
 				</div>
 				<div class="text"style="color: white;">
-					<a href="/Benz/views/customer-service.jsp">客户服务</a>
+					<a href="http://localhost:8888/Benz/views/customer-service.jsp">客户服务</a>
 					<div class="mbox"></div>
 				</div>
 				<div class="text" style="color: white;">
-					<a href="#">mercedes me</a>
+					<a href="http://localhost:8888/Benz/views/mercedes%20me.jsp">mercedes me</a>
 				</div>
 				<div class="text" style="color: white;">
-					<a href="#">梅赛德斯</a>
+					<a href="http://localhost:8888/Benz/views/mercedes-AMG.jsp">梅赛德斯</a>
 				</div>
 			</div>
 		</header>
