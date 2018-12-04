@@ -24,10 +24,11 @@ public class AreaDaoImpl implements IAreaDao{
 			@Override
 			public PreparedStatement executePst(Connection conn) throws SQLException {
 //				sql语句
-				String sql = "select * from tbl_area";
+				String sql = "select * from tbl_area where ? = 1";
 //				编译sql语句
 				PreparedStatement pst = conn.prepareStatement(sql);
 				return pst;
+				
 			}
 		}, new IResultSetCallBack() {
 			

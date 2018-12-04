@@ -54,7 +54,7 @@ create table tbl_area(
 	area_name varchar2(2),
 	area_max number(6) DEFAULT 10000,
 	constraint tbl_area_name_pk primary key(area_name),
-	constraint tbl_area_name_ck check(area_name in('A','B','C','D','E','F'))
+	constraint tbl_area_name_ck check(area_name in('A','B','C','D','E','F','Z'))
 );
 
 -- 武器类型
@@ -103,7 +103,7 @@ create table tbl_message(
 	create_time date DEFAULT SYSDATE,
 	status varchar2(10) DEFAULT 'unread',
 	constraint tbl_message_id_pk primary key(id),
-	constraint tbl_message_recipient_nn check(recipient_id is not null)
+	constraint tbl_message_recipient_nn check(recipient_id is not null),
 	constraint tbl_message_status_nn check(status in('unread', 'readed'))
 );
 

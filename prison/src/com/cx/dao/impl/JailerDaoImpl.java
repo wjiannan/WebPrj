@@ -64,10 +64,44 @@ public class JailerDaoImpl implements IJailerDao{
 	}
 
 	@Override
-	public void setSalaryById() {
-		// TODO Auto-generated method stub
-		
+	public Jailer getById(Integer id) {
+		return (Jailer) JdbcTemplate.exetuteQuery(new IPreparedStatementCallBack() {
+			
+			@Override
+			public PreparedStatement executePst(Connection conn) throws SQLException {
+				String sql = "select * from tbl_jailer where id = ?";
+				PreparedStatement pst = conn.prepareStatement(sql);
+				
+				pst.setInt(1, id);
+				
+				return pst;
+			}
+		}, new IResultSetCallBack() {
+			
+			@Override
+			public Object executeRscb(ResultSet rs) throws SQLException {
+				Integer id = rs.getInt("id");
+				String name = rs.getString("name");
+				
+				String areaName = rs.getString("area");
+				Area area = areaDaoImpl.getByName(areaName);
+				
+				Double salary = rs.getDouble("salary");
+				Integer credit = rs.getInt("credit");
+				
+				Jailer jailer = new Jailer();
+				jailer.setId(id);
+				jailer.setName(name);
+				jailer.setArea(area);
+				jailer.setSalary(salary);
+				jailer.setCredit(credit);
+				
+				return jailer;
+			}
+		});
 	}
+
+
 
 	
 	

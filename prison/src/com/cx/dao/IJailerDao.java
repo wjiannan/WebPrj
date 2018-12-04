@@ -8,8 +8,8 @@ public interface IJailerDao {
 //	查询所有狱警
 	List<Jailer> findAll();
 	
-//	设置狱警月薪
-	void setSalaryById();
+//	根据id查找狱警
+	Jailer getById(Integer id);
 	
 //	
 }

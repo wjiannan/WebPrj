@@ -8,6 +8,6 @@ public interface IWeaponModeDao {
 //	查找所有武器类型
 	List<WeaponMode> findAll();
 	
-//	添加武器类型
-	void addMode(WeaponMode mode);
+//	根据ID查找武器类型
+	WeaponMode getById(Integer id);
 }
