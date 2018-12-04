@@ -245,12 +245,12 @@
 							    		<p>￥86.38万起</p>
 							    		</a>
 							    		<br />
-							    		<a href="">
+							    		<a href="http://localhost:8888/Benz/views/page1.jsp">
 							    		<h4>梅赛德斯-迈巴赫S级轿车</h4>
 							    		<p>￥140.88万起</p>
 							   			 </a>
 							    		<br />
-							    		<a href="">
+							    		<a href="http://localhost:8888/Benz/views/page2.jsp">
 							   			 <h4>梅赛德斯-AMG S 63 L 
 							    			<br />
 							    			<br/>
@@ -614,13 +614,13 @@
 					</div>
 				</div>
 				<div class="text"style="color: white;">
-					<a href="/Benz/views/customer-service.html">客户服务</a>
+					<a href="http://localhost:8888/Benz/views/customer-service.jsp">客户服务</a>
 				</div>
 				<div class="text" style="color: white;">
-					<a href="/Benz/views/mercedes me.html">mercedes me</a>
+					<a href="http://localhost:8888/Benz/views/mercedes%20me.jsp">mercedes me</a>
 				</div>
 				<div class="text" style="color: white;">
-					<a href="/Benz/views/mercedes-AMG.html">梅赛德斯</a>
+					<a href="http://localhost:8888/Benz/views/mercedes-AMG.jsp">梅赛德斯</a>
 				</div>
 			</div>
 		</header>
@@ -762,7 +762,7 @@
 					<li class="char2"><a href="#">供应商信息平台</a></li>
 					<li class="char2"><a href="#">环保信息清单</a></li>
 					<li class="char2"><a href="#">奔驰杂志</a></li>
-					<li class="char2"><a href="/Benz/views/star.html">星友荟</a></li>
+					<li class="char2"><a href="http://localhost:8888/Benz/views/star.jsp">星友荟</a></li>
 				</ul>
 			</div>
 			<div class="clear">
