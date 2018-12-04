@@ -9,7 +9,7 @@ import com.cx.util.JdbcUtil;
 import com.cx.util.SimpleDataSource;
 
 public class JdbcTemplate {
-
+//DML²Ù×÷
 	public void execute(IPreparedStatementCallBack pscb) {
 		Connection conn = null;
 		PreparedStatement pst = null;
@@ -33,7 +33,7 @@ public class JdbcTemplate {
 			JdbcUtil.reLease(conn, pst, null);
 		}
 	}
-
+//DQL²Ù×÷
 	public Object exetuteQuery(IPreparedStatementCallBack pscb,
 			IResultSetCallBack rscb) {
 		Connection conn = null;

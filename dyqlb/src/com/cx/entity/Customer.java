@@ -1,4 +1,4 @@
-package com.cx.entitiy;
+package com.cx.entity;
 
 import java.util.Date;
 
