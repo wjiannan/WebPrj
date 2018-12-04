@@ -1,3 +1,5 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!doctype html>
 <html lang="zh">
 <head>
@@ -39,7 +41,7 @@
 	    <h2>往下滑</h2>
 	  </div>
 	  <div class="page page4">
-	  	<h2>点击<a href="view/主页.html" style="text-decoration:none;color: #fff;">开启</a>进入</h2>
+	  	<h2>点击<a href="view/主页.jps" style="text-decoration:none;color: #fff;">开启</a>进入</h2>
 
 	  </div>
 	</div>

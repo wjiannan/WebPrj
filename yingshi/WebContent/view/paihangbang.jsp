@@ -1,3 +1,5 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 	<head>
@@ -31,8 +33,8 @@
 				<div class="phb11"><h2>全网影视</h2><h1>排行榜</h1></div>
 			</div>
 			<div class="phb2">
-				<a href="zhuye.html" style="color: black;"><div class="phb21">影视</div></a>
-				<a href="yingpnig.html" style="color: black;"><div class="phb21">影评</div></a>
+				<a href="zhuye.jsp" style="color: black;"><div class="phb21">影视</div></a>
+				<a href="yingpnig.jsp" style="color: black;"><div class="phb21">影评</div></a>
 			</div>
 			<span style="font-size: 45px; font-weight: bold;">电影排行榜</span>
 			<div class="phb3">

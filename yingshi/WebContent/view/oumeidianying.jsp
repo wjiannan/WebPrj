@@ -1,3 +1,5 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 	<head>
@@ -233,7 +235,7 @@ white-space: nowrap;
 	
 	
 		<div class="topnav" id="daohanglan">
-		  <a class="active tupianxiaoguo" href="主页.html" style="color: #999;">影视</a>
+		  <a class="active tupianxiaoguo" href="主页.jsp" style="color: #999;">影视</a>
 		  <div class="search-container">
 		    <form action="/action_page.php">
 		      <input type="text" placeholder="变形金刚5" name="search">
@@ -242,14 +244,14 @@ white-space: nowrap;
 		      
 		      
 		    </form>
-		    	<ul class="ceshi navbar-right tupianxiaoguo"><a href="denglu.html">登录</a></ul>  
-		       	<ul class="ceshi navbar-right tupianxiaoguo"><a href="zhuce.html">注册</a></ul>  
-		       	<ul class="ceshi navbar-right tupianxiaoguo"><a href="gerenzhongxin.html">用户</a></ul>
-		       	<ul class="ceshi navbar-right tupianxiaoguo"><a href="meiriyitui .html">每日一推</a></ul>
-		       	<ul class="ceshi navbar-right tupianxiaoguo"><a href="zhuanyeyingping.html">专业影评</a></ul>
-		       	<ul class="ceshi navbar-right tupianxiaoguo"><a href="dongman.html">动漫</a></ul>
+		    	<ul class="ceshi navbar-right tupianxiaoguo"><a href="denglu.jsp">登录</a></ul>  
+		       	<ul class="ceshi navbar-right tupianxiaoguo"><a href="zhuce.jsp">注册</a></ul>  
+		       	<ul class="ceshi navbar-right tupianxiaoguo"><a href="gerenzhuye.jsp">用户</a></ul>
+		       	<ul class="ceshi navbar-right tupianxiaoguo"><a href="meiriyitui.jsp">每日一推</a></ul>
+		       	<ul class="ceshi navbar-right tupianxiaoguo"><a href="yingpnig.jsp">专业影评</a></ul>
+		       	<ul class="ceshi navbar-right tupianxiaoguo"><a href="dongman.jsp">动漫</a></ul>
 		       	
-		       	<ul class="ceshi navbar-right tupianxiaoguo"><a href="wenzhangzixun.html">文章资讯</a></ul>
+		       	<ul class="ceshi navbar-right tupianxiaoguo"><a href="wenzhangzixun.jsp">文章资讯</a></ul>
 		    	
 		    
 		     
@@ -291,7 +293,7 @@ white-space: nowrap;
 			
 <div class='card-holder'>
 <div class='card-wrapper'>
-<a   href="oumeidianying.html">
+<a   href="oumeidianying.jsp">
 <div class='card bg-01'>
 <span class='card-content'>欧美电影</span>
 </div>
@@ -299,7 +301,7 @@ white-space: nowrap;
 </div>
 
 <div class='card-wrapper'>
-<a href='rihandianying.html'>
+<a href='rihandianying.jsp'>
 <div class='card bg-01'>
 <span class='card-content'>日韩电影</span>
 </div>
@@ -307,7 +309,7 @@ white-space: nowrap;
 </div>
 
 <div class='card-wrapper'>
-<a href='gangtaidianying.html'>
+<a href='gangtaidianying.jsp'>
 <div class='card bg-01'>
 <span class='card-content'>港台电影</span>
 </div>
@@ -316,7 +318,7 @@ white-space: nowrap;
 
 
 <div class='card-wrapper'>
-<a href='guochandianying.html'>
+<a href='guochandianying.jsp'>
 <div class='card bg-01'>
 <span class='card-content'>国产电影</span>
 </div>
@@ -324,7 +326,7 @@ white-space: nowrap;
 </div>
 
 <div class='card-wrapper'>
-<a href='qitadiqu.html'>
+<a href='qitadiqu.jsp'>
 <div class='card bg-01'>
 <span class='card-content'>其他地区</span>
 </div>
@@ -333,7 +335,7 @@ white-space: nowrap;
 
 
 <div class='card-wrapper'>
-<a href='meiriyitui.html'>
+<a href='meiriyitui.jsp'>
 <div class='card bg-01'>
 <span class='card-content'>每日一推</span>
 </div>
@@ -341,7 +343,7 @@ white-space: nowrap;
 </div>
 
 <div class='card-wrapper'>
-<a href='yingpnig.html'>
+<a href='yingpnig.jsp'>
 <div class='card bg-01'>
 <span class='card-content'>专业影评</span>
 </div>
@@ -349,7 +351,7 @@ white-space: nowrap;
 </div>
 
 <div class='card-wrapper'>
-<a href='dongman.html'>
+<a href='dongman.jsp'>
 <div class='card bg-01'>
 <span class='card-content'>动漫之家</span>
 </div>
@@ -379,14 +381,14 @@ white-space: nowrap;
 		
 			<ul>
 				
-				<li><a href="1-测试.html"><img src="../img/lunbofenlei/oumeidianying/duye.png"/></a></li>
+				<li><a href="1-测试.jsp"><img src="../img/lunbofenlei/oumeidianying/duye.png"/></a></li>
 		
-				<li><a href="1-测试.html"><img src="../img/lunbofenlei/oumeidianying/gangtiexia.png"/></a></li>
+				<li><a href="1-测试.jsp"><img src="../img/lunbofenlei/oumeidianying/gangtiexia.png"/></a></li>
 		
-				<li><a href="1-测试.html"><img src="../img/lunbofenlei/oumeidianying/heibao.png"/></a></li>
-				<li><a href="1-测试.html"><img src="../img/lunbofenlei/oumeidianying/bianxing.png"/></a></li>
-				<li><a href="1-测试.html"><img src="../img/lunbofenlei/oumeidianying/qiyi.png"/></a></li>
-				<li><a href="变形金刚5播放.html"><img src="../img/lunbofenlei/oumeidianying/leishen.png"/></a></li>
+				<li><a href="1-测试.jsp"><img src="../img/lunbofenlei/oumeidianying/heibao.png"/></a></li>
+				<li><a href="1-测试.jsp"><img src="../img/lunbofenlei/oumeidianying/bianxing.png"/></a></li>
+				<li><a href="1-测试.jsp"><img src="../img/lunbofenlei/oumeidianying/qiyi.png"/></a></li>
+				<li><a href="变形金刚5播放.jsp"><img src="../img/lunbofenlei/oumeidianying/leishen.png"/></a></li>
 		
 
 		
@@ -415,7 +417,7 @@ white-space: nowrap;
 				</div>
 				</div>
 					<div class="box-content">
-					<a href="测试视频播放器.html"><h4 class="title">阿凡达</h4></a>
+					<a href="测试视频播放器.jsp"><h4 class="title">阿凡达</h4></a>
 					<p class="description">片名“布希维克”本是美国纽约一个区的区名，故事也发生在这个地区。《布希维克》，男女主人公来到布希维克，本来轻松愉悦的两人却突然遭遇恐怖袭击，枪战、爆炸遍布城市，紧张窒息的情绪扑面而来。<ul class="social-links"> 
 					</ul>
 				</div>
@@ -431,7 +433,7 @@ white-space: nowrap;
 				</div>
 					<div class="box-content">
 					<h4 class="title">白色上帝</h4>
-					<a href="index.html"><p class="description">片名“布希维克”本是美国纽约一个区的区名，故事也发生在这个地区。《布希维克》，男女主人公来到布希维克，本来轻松愉悦的两人却突然遭遇恐怖袭击，枪战、爆炸遍布城市，紧张窒息的情绪扑面而来。<ul class="social-links"></a> 
+					<a href="index.jsp"><p class="description">片名“布希维克”本是美国纽约一个区的区名，故事也发生在这个地区。《布希维克》，男女主人公来到布希维克，本来轻松愉悦的两人却突然遭遇恐怖袭击，枪战、爆炸遍布城市，紧张窒息的情绪扑面而来。<ul class="social-links"></a> 
 					</ul>
 				</div>
 				</div>
@@ -447,7 +449,7 @@ white-space: nowrap;
 				</div>
 				</div>
 					<div class="box-content">
-					<a href="index.html"><h4 class="title">彼得的龙</h4></a> 
+					<a href="index.jsp"><h4 class="title">彼得的龙</h4></a> 
 					<p class="description">片名“布希维克”本是美国纽约一个区的区名，故事也发生在这个地区。《布希维克》，男女主人公来到布希维克，本来轻松愉悦的两人却突然遭遇恐怖袭击，枪战、爆炸遍布城市，紧张窒息的情绪扑面而来。<ul class="social-links"></a> 
 					</ul>
 				</div>
@@ -463,7 +465,7 @@ white-space: nowrap;
 				</div>
 				</div>
 					<div class="box-content">
-					<a href="index.html"><h4 class="title">冰雪奇缘</h4></a> 
+					<a href="index.jsp"><h4 class="title">冰雪奇缘</h4></a> 
 					<p class="description">片名“布希维克”本是美国纽约一个区的区名，故事也发生在这个地区。《布希维克》，男女主人公来到布希维克，本来轻松愉悦的两人却突然遭遇恐怖袭击，枪战、爆炸遍布城市，紧张窒息的情绪扑面而来。<ul class="social-links"></a> 
 					</ul>
 				</div>
@@ -480,7 +482,7 @@ white-space: nowrap;
 				</div>
 				</div>
 					<div class="box-content">
-					<a href="index.html"><h4 class="title">不速之客</h4></a> 
+					<a href="index.jsp"><h4 class="title">不速之客</h4></a> 
 					<p class="description">片名“布希维克”本是美国纽约一个区的区名，故事也发生在这个地区。《布希维克》，男女主人公来到布希维克，本来轻松愉悦的两人却突然遭遇恐怖袭击，枪战、爆炸遍布城市，紧张窒息的情绪扑面而来。<ul class="social-links"></a> 
 					</ul>
 				</div>
@@ -494,7 +496,7 @@ white-space: nowrap;
 				</div>
 				</div>
 					<div class="box-content">
-					<a href="index.html"><h4 class="title">拆弹部队</h4></a> 
+					<a href="index.jsp"><h4 class="title">拆弹部队</h4></a> 
 					<p class="description">片名“布希维克”本是美国纽约一个区的区名，故事也发生在这个地区。《布希维克》，男女主人公来到布希维克，本来轻松愉悦的两人却突然遭遇恐怖袭击，枪战、爆炸遍布城市，紧张窒息的情绪扑面而来。<ul class="social-links"></a> 
 					</ul>
 				</div>
@@ -510,7 +512,7 @@ white-space: nowrap;
 				</div>
 				</div>
 					<div class="box-content">
-					<a href="测试视频播放器.html"><h4 class="title">chounv</h4></a>
+					<a href="测试视频播放器.jsp"><h4 class="title">chounv</h4></a>
 					<p class="description">片名“布希维克”本是美国纽约一个区的区名，故事也发生在这个地区。《布希维克》，男女主人公来到布希维克，本来轻松愉悦的两人却突然遭遇恐怖袭击，枪战、爆炸遍布城市，紧张窒息的情绪扑面而来。<ul class="social-links"> 
 					</ul>
 				</div>
@@ -526,7 +528,7 @@ white-space: nowrap;
 				</div>
 					<div class="box-content">
 					<h4 class="title">传染</h4>
-					<a href="index.html"><p class="description">片名“布希维克”本是美国纽约一个区的区名，故事也发生在这个地区。《布希维克》，男女主人公来到布希维克，本来轻松愉悦的两人却突然遭遇恐怖袭击，枪战、爆炸遍布城市，紧张窒息的情绪扑面而来。<ul class="social-links"></a> 
+					<a href="index.jsp"><p class="description">片名“布希维克”本是美国纽约一个区的区名，故事也发生在这个地区。《布希维克》，男女主人公来到布希维克，本来轻松愉悦的两人却突然遭遇恐怖袭击，枪战、爆炸遍布城市，紧张窒息的情绪扑面而来。<ul class="social-links"></a> 
 					</ul>
 				</div>
 				</div>
@@ -542,7 +544,7 @@ white-space: nowrap;
 				</div>
 				</div>
 					<div class="box-content">
-					<a href="index.html"><h4 class="title">盗梦空间</h4></a> 
+					<a href="index.jsp"><h4 class="title">盗梦空间</h4></a> 
 					<p class="description">片名“布希维克”本是美国纽约一个区的区名，故事也发生在这个地区。《布希维克》，男女主人公来到布希维克，本来轻松愉悦的两人却突然遭遇恐怖袭击，枪战、爆炸遍布城市，紧张窒息的情绪扑面而来。<ul class="social-links"></a> 
 					</ul>
 				</div>
@@ -558,7 +560,7 @@ white-space: nowrap;
 				</div>
 				</div>
 					<div class="box-content">
-					<a href="index.html"><h4 class="title">地心营救</h4></a> 
+					<a href="index.jsp"><h4 class="title">地心营救</h4></a> 
 					<p class="description">片名“布希维克”本是美国纽约一个区的区名，故事也发生在这个地区。《布希维克》，男女主人公来到布希维克，本来轻松愉悦的两人却突然遭遇恐怖袭击，枪战、爆炸遍布城市，紧张窒息的情绪扑面而来。<ul class="social-links"></a> 
 					</ul>
 				</div>
@@ -575,7 +577,7 @@ white-space: nowrap;
 				</div>
 				</div>
 					<div class="box-content">
-					<a href="index.html"><h4 class="title">躲藏</h4></a> 
+					<a href="index.jsp"><h4 class="title">躲藏</h4></a> 
 					<p class="description">片名“布希维克”本是美国纽约一个区的区名，故事也发生在这个地区。《布希维克》，男女主人公来到布希维克，本来轻松愉悦的两人却突然遭遇恐怖袭击，枪战、爆炸遍布城市，紧张窒息的情绪扑面而来。<ul class="social-links"></a> 
 					</ul>
 				</div>
@@ -589,7 +591,7 @@ white-space: nowrap;
 				</div>
 				</div>
 					<div class="box-content">
-					<a href="index.html"><h4 class="title">反常</h4></a> 
+					<a href="index.jsp"><h4 class="title">反常</h4></a> 
 					<p class="description">片名“布希维克”本是美国纽约一个区的区名，故事也发生在这个地区。《布希维克》，男女主人公来到布希维克，本来轻松愉悦的两人却突然遭遇恐怖袭击，枪战、爆炸遍布城市，紧张窒息的情绪扑面而来。<ul class="social-links"></a> 
 					</ul>
 				</div>
@@ -606,7 +608,7 @@ white-space: nowrap;
 				</div>
 				</div>
 					<div class="box-content">
-					<a href="测试视频播放器.html"><h4 class="title">zhuluoji</h4></a>
+					<a href="测试视频播放器.jsp"><h4 class="title">zhuluoji</h4></a>
 					<p class="description">片名“布希维克”本是美国纽约一个区的区名，故事也发生在这个地区。《布希维克》，男女主人公来到布希维克，本来轻松愉悦的两人却突然遭遇恐怖袭击，枪战、爆炸遍布城市，紧张窒息的情绪扑面而来。<ul class="social-links"> 
 					</ul>
 				</div>
@@ -622,7 +624,7 @@ white-space: nowrap;
 				</div>
 					<div class="box-content">
 					<h4 class="title">quanjing</h4>
-					<a href="index.html"><p class="description">片名“布希维克”本是美国纽约一个区的区名，故事也发生在这个地区。《布希维克》，男女主人公来到布希维克，本来轻松愉悦的两人却突然遭遇恐怖袭击，枪战、爆炸遍布城市，紧张窒息的情绪扑面而来。<ul class="social-links"></a> 
+					<a href="index.jsp"><p class="description">片名“布希维克”本是美国纽约一个区的区名，故事也发生在这个地区。《布希维克》，男女主人公来到布希维克，本来轻松愉悦的两人却突然遭遇恐怖袭击，枪战、爆炸遍布城市，紧张窒息的情绪扑面而来。<ul class="social-links"></a> 
 					</ul>
 				</div>
 				</div>
@@ -638,7 +640,7 @@ white-space: nowrap;
 				</div>
 				</div>
 					<div class="box-content">
-					<a href="index.html"><h4 class="title">全球风暴</h4></a> 
+					<a href="index.jsp"><h4 class="title">全球风暴</h4></a> 
 					<p class="description">片名“布希维克”本是美国纽约一个区的区名，故事也发生在这个地区。《布希维克》，男女主人公来到布希维克，本来轻松愉悦的两人却突然遭遇恐怖袭击，枪战、爆炸遍布城市，紧张窒息的情绪扑面而来。<ul class="social-links"></a> 
 					</ul>
 				</div>
@@ -654,7 +656,7 @@ white-space: nowrap;
 				</div>
 				</div>
 					<div class="box-content">
-					<a href="index.html"><h4 class="title">头号玩家</h4></a> 
+					<a href="index.jsp"><h4 class="title">头号玩家</h4></a> 
 					<p class="description">片名“布希维克”本是美国纽约一个区的区名，故事也发生在这个地区。《布希维克》，男女主人公来到布希维克，本来轻松愉悦的两人却突然遭遇恐怖袭击，枪战、爆炸遍布城市，紧张窒息的情绪扑面而来。<ul class="social-links"></a> 
 					</ul>
 				</div>
@@ -671,7 +673,7 @@ white-space: nowrap;
 				</div>
 				</div>
 					<div class="box-content">
-					<a href="index.html"><h4 class="title">寂静之地</h4></a> 
+					<a href="index.jsp"><h4 class="title">寂静之地</h4></a> 
 					<p class="description">片名“布希维克”本是美国纽约一个区的区名，故事也发生在这个地区。《布希维克》，男女主人公来到布希维克，本来轻松愉悦的两人却突然遭遇恐怖袭击，枪战、爆炸遍布城市，紧张窒息的情绪扑面而来。<ul class="social-links"></a> 
 					</ul>
 				</div>
@@ -685,7 +687,7 @@ white-space: nowrap;
 				</div>
 				</div>
 					<div class="box-content">
-					<a href="index.html"><h4 class="title">巨齿鲨</h4></a> 
+					<a href="index.jsp"><h4 class="title">巨齿鲨</h4></a> 
 					<p class="description">片名“布希维克”本是美国纽约一个区的区名，故事也发生在这个地区。《布希维克》，男女主人公来到布希维克，本来轻松愉悦的两人却突然遭遇恐怖袭击，枪战、爆炸遍布城市，紧张窒息的情绪扑面而来。<ul class="social-links"></a> 
 					</ul>
 				</div>
@@ -701,7 +703,7 @@ white-space: nowrap;
 				</div>
 				</div>
 					<div class="box-content">
-					<a href="测试视频播放器.html"><h4 class="title">返老还童</h4></a>
+					<a href="测试视频播放器.jsp"><h4 class="title">返老还童</h4></a>
 					<p class="description">片名“布希维克”本是美国纽约一个区的区名，故事也发生在这个地区。《布希维克》，男女主人公来到布希维克，本来轻松愉悦的两人却突然遭遇恐怖袭击，枪战、爆炸遍布城市，紧张窒息的情绪扑面而来。<ul class="social-links"> 
 					</ul>
 				</div>
@@ -717,7 +719,7 @@ white-space: nowrap;
 				</div>
 					<div class="box-content">
 					<h4 class="title">废柴特工</h4>
-					<a href="index.html"><p class="description">片名“布希维克”本是美国纽约一个区的区名，故事也发生在这个地区。《布希维克》，男女主人公来到布希维克，本来轻松愉悦的两人却突然遭遇恐怖袭击，枪战、爆炸遍布城市，紧张窒息的情绪扑面而来。<ul class="social-links"></a> 
+					<a href="index.jsp"><p class="description">片名“布希维克”本是美国纽约一个区的区名，故事也发生在这个地区。《布希维克》，男女主人公来到布希维克，本来轻松愉悦的两人却突然遭遇恐怖袭击，枪战、爆炸遍布城市，紧张窒息的情绪扑面而来。<ul class="social-links"></a> 
 					</ul>
 				</div>
 				</div>
@@ -733,7 +735,7 @@ white-space: nowrap;
 				</div>
 				</div>
 					<div class="box-content">
-					<a href="index.html"><h4 class="title">蜂鸟特攻</h4></a> 
+					<a href="index.jsp"><h4 class="title">蜂鸟特攻</h4></a> 
 					<p class="description">片名“布希维克”本是美国纽约一个区的区名，故事也发生在这个地区。《布希维克》，男女主人公来到布希维克，本来轻松愉悦的两人却突然遭遇恐怖袭击，枪战、爆炸遍布城市，紧张窒息的情绪扑面而来。<ul class="social-links"></a> 
 					</ul>
 				</div>
@@ -749,7 +751,7 @@ white-space: nowrap;
 				</div>
 				</div>
 					<div class="box-content">
-					<a href="index.html"><h4 class="title">敢死队</h4></a> 
+					<a href="index.jsp"><h4 class="title">敢死队</h4></a> 
 					<p class="description">片名“布希维克”本是美国纽约一个区的区名，故事也发生在这个地区。《布希维克》，男女主人公来到布希维克，本来轻松愉悦的两人却突然遭遇恐怖袭击，枪战、爆炸遍布城市，紧张窒息的情绪扑面而来。<ul class="social-links"></a> 
 					</ul>
 				</div>
@@ -766,7 +768,7 @@ white-space: nowrap;
 				</div>
 				</div>
 					<div class="box-content">
-					<a href="index.html"><h4 class="title">黑洞</h4></a> 
+					<a href="index.jsp"><h4 class="title">黑洞</h4></a> 
 					<p class="description">片名“布希维克”本是美国纽约一个区的区名，故事也发生在这个地区。《布希维克》，男女主人公来到布希维克，本来轻松愉悦的两人却突然遭遇恐怖袭击，枪战、爆炸遍布城市，紧张窒息的情绪扑面而来。<ul class="social-links"></a> 
 					</ul>
 				</div>
@@ -780,7 +782,7 @@ white-space: nowrap;
 				</div>
 				</div>
 					<div class="box-content">
-					<a href="index.html"><h4 class="title">黑海夺金</h4></a> 
+					<a href="index.jsp"><h4 class="title">黑海夺金</h4></a> 
 					<p class="description">片名“布希维克”本是美国纽约一个区的区名，故事也发生在这个地区。《布希维克》，男女主人公来到布希维克，本来轻松愉悦的两人却突然遭遇恐怖袭击，枪战、爆炸遍布城市，紧张窒息的情绪扑面而来。<ul class="social-links"></a> 
 					</ul>
 				</div>
@@ -797,7 +799,7 @@ white-space: nowrap;
 				</div>
 				</div>
 					<div class="box-content">
-					<a href="测试视频播放器.html"><h4 class="title">荒野逃生</h4></a>
+					<a href="测试视频播放器.jsp"><h4 class="title">荒野逃生</h4></a>
 					<p class="description">片名“布希维克”本是美国纽约一个区的区名，故事也发生在这个地区。《布希维克》，男女主人公来到布希维克，本来轻松愉悦的两人却突然遭遇恐怖袭击，枪战、爆炸遍布城市，紧张窒息的情绪扑面而来。<ul class="social-links"> 
 					</ul>
 				</div>
@@ -813,7 +815,7 @@ white-space: nowrap;
 				</div>
 					<div class="box-content">
 					<h4 class="title">机械师</h4>
-					<a href="index.html"><p class="description">片名“布希维克”本是美国纽约一个区的区名，故事也发生在这个地区。《布希维克》，男女主人公来到布希维克，本来轻松愉悦的两人却突然遭遇恐怖袭击，枪战、爆炸遍布城市，紧张窒息的情绪扑面而来。<ul class="social-links"></a> 
+					<a href="index.jsp"><p class="description">片名“布希维克”本是美国纽约一个区的区名，故事也发生在这个地区。《布希维克》，男女主人公来到布希维克，本来轻松愉悦的两人却突然遭遇恐怖袭击，枪战、爆炸遍布城市，紧张窒息的情绪扑面而来。<ul class="social-links"></a> 
 					</ul>
 				</div>
 				</div>
@@ -829,7 +831,7 @@ white-space: nowrap;
 				</div>
 				</div>
 					<div class="box-content">
-					<a href="index.html"><h4 class="title">即兴之旅</h4></a> 
+					<a href="index.jsp"><h4 class="title">即兴之旅</h4></a> 
 					<p class="description">片名“布希维克”本是美国纽约一个区的区名，故事也发生在这个地区。《布希维克》，男女主人公来到布希维克，本来轻松愉悦的两人却突然遭遇恐怖袭击，枪战、爆炸遍布城市，紧张窒息的情绪扑面而来。<ul class="social-links"></a> 
 					</ul>
 				</div>
@@ -845,7 +847,7 @@ white-space: nowrap;
 				</div>
 				</div>
 					<div class="box-content">
-					<a href="index.html"><h4 class="title">九十二任务</h4></a> 
+					<a href="index.jsp"><h4 class="title">九十二任务</h4></a> 
 					<p class="description">片名“布希维克”本是美国纽约一个区的区名，故事也发生在这个地区。《布希维克》，男女主人公来到布希维克，本来轻松愉悦的两人却突然遭遇恐怖袭击，枪战、爆炸遍布城市，紧张窒息的情绪扑面而来。<ul class="social-links"></a> 
 					</ul>
 				</div>
@@ -862,7 +864,7 @@ white-space: nowrap;
 				</div>
 				</div>
 					<div class="box-content">
-					<a href="index.html"><h4 class="title">自杀小队</h4></a> 
+					<a href="index.jsp"><h4 class="title">自杀小队</h4></a> 
 					<p class="description">片名“布希维克”本是美国纽约一个区的区名，故事也发生在这个地区。《布希维克》，男女主人公来到布希维克，本来轻松愉悦的两人却突然遭遇恐怖袭击，枪战、爆炸遍布城市，紧张窒息的情绪扑面而来。<ul class="social-links"></a> 
 					</ul>
 				</div>
@@ -876,7 +878,7 @@ white-space: nowrap;
 				</div>
 				</div>
 					<div class="box-content">
-					<a href="index.html"><h4 class="title">血战钢锯岭</h4></a> 
+					<a href="index.jsp"><h4 class="title">血战钢锯岭</h4></a> 
 					<p class="description">片名“布希维克”本是美国纽约一个区的区名，故事也发生在这个地区。《布希维克》，男女主人公来到布希维克，本来轻松愉悦的两人却突然遭遇恐怖袭击，枪战、爆炸遍布城市，紧张窒息的情绪扑面而来。<ul class="social-links"></a> 
 					</ul>
 				</div>
@@ -894,7 +896,7 @@ white-space: nowrap;
 				</div>
 				</div>
 					<div class="box-content">
-					<a href="测试视频播放器.html"><h4 class="title">wuyue</h4></a>
+					<a href="测试视频播放器.jsp"><h4 class="title">wuyue</h4></a>
 					<p class="description">片名“布希维克”本是美国纽约一个区的区名，故事也发生在这个地区。《布希维克》，男女主人公来到布希维克，本来轻松愉悦的两人却突然遭遇恐怖袭击，枪战、爆炸遍布城市，紧张窒息的情绪扑面而来。<ul class="social-links"> 
 					</ul>
 				</div>
@@ -910,7 +912,7 @@ white-space: nowrap;
 				</div>
 					<div class="box-content">
 					<h4 class="title">锈与骨</h4>
-					<a href="index.html"><p class="description">片名“布希维克”本是美国纽约一个区的区名，故事也发生在这个地区。《布希维克》，男女主人公来到布希维克，本来轻松愉悦的两人却突然遭遇恐怖袭击，枪战、爆炸遍布城市，紧张窒息的情绪扑面而来。<ul class="social-links"></a> 
+					<a href="index.jsp"><p class="description">片名“布希维克”本是美国纽约一个区的区名，故事也发生在这个地区。《布希维克》，男女主人公来到布希维克，本来轻松愉悦的两人却突然遭遇恐怖袭击，枪战、爆炸遍布城市，紧张窒息的情绪扑面而来。<ul class="social-links"></a> 
 					</ul>
 				</div>
 				</div>
@@ -926,7 +928,7 @@ white-space: nowrap;
 				</div>
 				</div>
 					<div class="box-content">
-					<a href="index.html"><h4 class="title">一条狗的使命</h4></a> 
+					<a href="index.jsp"><h4 class="title">一条狗的使命</h4></a> 
 					<p class="description">片名“布希维克”本是美国纽约一个区的区名，故事也发生在这个地区。《布希维克》，男女主人公来到布希维克，本来轻松愉悦的两人却突然遭遇恐怖袭击，枪战、爆炸遍布城市，紧张窒息的情绪扑面而来。<ul class="social-links"></a> 
 					</ul>
 				</div>
@@ -942,7 +944,7 @@ white-space: nowrap;
 				</div>
 				</div>
 					<div class="box-content">
-					<a href="index.html"><h4 class="title">银行匪帮</h4></a> 
+					<a href="index.jsp"><h4 class="title">银行匪帮</h4></a> 
 					<p class="description">片名“布希维克”本是美国纽约一个区的区名，故事也发生在这个地区。《布希维克》，男女主人公来到布希维克，本来轻松愉悦的两人却突然遭遇恐怖袭击，枪战、爆炸遍布城市，紧张窒息的情绪扑面而来。<ul class="social-links"></a> 
 					</ul>
 				</div>
@@ -959,7 +961,7 @@ white-space: nowrap;
 				</div>
 				</div>
 					<div class="box-content">
-					<a href="index.html"><h4 class="title">英雄</h4></a> 
+					<a href="index.jsp"><h4 class="title">英雄</h4></a> 
 					<p class="description">片名“布希维克”本是美国纽约一个区的区名，故事也发生在这个地区。《布希维克》，男女主人公来到布希维克，本来轻松愉悦的两人却突然遭遇恐怖袭击，枪战、爆炸遍布城市，紧张窒息的情绪扑面而来。<ul class="social-links"></a> 
 					</ul>
 				</div>
@@ -973,7 +975,7 @@ white-space: nowrap;
 				</div>
 				</div>
 					<div class="box-content">
-					<a href="index.html"><h4 class="title">永不放弃</h4></a> 
+					<a href="index.jsp"><h4 class="title">永不放弃</h4></a> 
 					<p class="description">片名“布希维克”本是美国纽约一个区的区名，故事也发生在这个地区。《布希维克》，男女主人公来到布希维克，本来轻松愉悦的两人却突然遭遇恐怖袭击，枪战、爆炸遍布城市，紧张窒息的情绪扑面而来。<ul class="social-links"></a> 
 					</ul>
 				</div>
@@ -991,7 +993,7 @@ white-space: nowrap;
 				</div>
 				</div>
 					<div class="box-content">
-					<a href="测试视频播放器.html"><h4 class="title">勇往直前</h4></a>
+					<a href="测试视频播放器.jsp"><h4 class="title">勇往直前</h4></a>
 					<p class="description">片名“布希维克”本是美国纽约一个区的区名，故事也发生在这个地区。《布希维克》，男女主人公来到布希维克，本来轻松愉悦的两人却突然遭遇恐怖袭击，枪战、爆炸遍布城市，紧张窒息的情绪扑面而来。<ul class="social-links"> 
 					</ul>
 				</div>
@@ -1007,7 +1009,7 @@ white-space: nowrap;
 				</div>
 					<div class="box-content">
 					<h4 class="title">长发公主</h4>
-					<a href="index.html"><p class="description">片名“布希维克”本是美国纽约一个区的区名，故事也发生在这个地区。《布希维克》，男女主人公来到布希维克，本来轻松愉悦的两人却突然遭遇恐怖袭击，枪战、爆炸遍布城市，紧张窒息的情绪扑面而来。<ul class="social-links"></a> 
+					<a href="index.jsp"><p class="description">片名“布希维克”本是美国纽约一个区的区名，故事也发生在这个地区。《布希维克》，男女主人公来到布希维克，本来轻松愉悦的两人却突然遭遇恐怖袭击，枪战、爆炸遍布城市，紧张窒息的情绪扑面而来。<ul class="social-links"></a> 
 					</ul>
 				</div>
 				</div>
@@ -1023,7 +1025,7 @@ white-space: nowrap;
 				</div>
 				</div>
 					<div class="box-content">
-					<a href="index.html"><h4 class="title">正义联盟</h4></a> 
+					<a href="index.jsp"><h4 class="title">正义联盟</h4></a> 
 					<p class="description">片名“布希维克”本是美国纽约一个区的区名，故事也发生在这个地区。《布希维克》，男女主人公来到布希维克，本来轻松愉悦的两人却突然遭遇恐怖袭击，枪战、爆炸遍布城市，紧张窒息的情绪扑面而来。<ul class="social-links"></a> 
 					</ul>
 				</div>
@@ -1039,7 +1041,7 @@ white-space: nowrap;
 				</div>
 				</div>
 					<div class="box-content">
-					<a href="index.html"><h4 class="title">治疗</h4></a> 
+					<a href="index.jsp"><h4 class="title">治疗</h4></a> 
 					<p class="description">片名“布希维克”本是美国纽约一个区的区名，故事也发生在这个地区。《布希维克》，男女主人公来到布希维克，本来轻松愉悦的两人却突然遭遇恐怖袭击，枪战、爆炸遍布城市，紧张窒息的情绪扑面而来。<ul class="social-links"></a> 
 					</ul>
 				</div>
@@ -1056,7 +1058,7 @@ white-space: nowrap;
 				</div>
 				</div>
 					<div class="box-content">
-					<a href="index.html"><h4 class="title">自由联盟</h4></a> 
+					<a href="index.jsp"><h4 class="title">自由联盟</h4></a> 
 					<p class="description">片名“布希维克”本是美国纽约一个区的区名，故事也发生在这个地区。《布希维克》，男女主人公来到布希维克，本来轻松愉悦的两人却突然遭遇恐怖袭击，枪战、爆炸遍布城市，紧张窒息的情绪扑面而来。<ul class="social-links"></a> 
 					</ul>
 				</div>
@@ -1070,7 +1072,7 @@ white-space: nowrap;
 				</div>
 				</div>
 					<div class="box-content">
-					<a href="index.html"><h4 class="title">最佳出价</h4></a> 
+					<a href="index.jsp"><h4 class="title">最佳出价</h4></a> 
 					<p class="description">片名“布希维克”本是美国纽约一个区的区名，故事也发生在这个地区。《布希维克》，男女主人公来到布希维克，本来轻松愉悦的两人却突然遭遇恐怖袭击，枪战、爆炸遍布城市，紧张窒息的情绪扑面而来。<ul class="social-links"></a> 
 					</ul>
 				</div>

@@ -1,3 +1,5 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <!--
 Design by Free Responsive Templates
@@ -41,10 +43,10 @@ Created: August 23, 2012
     	<h1><a href="">文章资讯</a></h1>
         <nav>
         	<ul>
-            	<li id="active"><a href="zhuye">影视</a></li>
-                <li><a href="gerenzhongxin.html">用户</a></li>
-                <li><a href="denglu.html">登录</a></li>
-                <li><a href="zhuce.html">注册</a></li>
+            	<li id="active"><a href="zhuye.jsp">影视</a></li>
+                <li><a href="gerenzhuye.jsp">用户</a></li>
+                <li><a href="denglu.jsp">登录</a></li>
+                <li><a href="zhuce.jsp">注册</a></li>
                
             </ul>
         </nav>
