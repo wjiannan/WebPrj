@@ -63,6 +63,12 @@ public class JailerDaoImpl implements IJailerDao{
 		});
 	}
 
+	@Override
+	public void setSalaryById() {
+		// TODO Auto-generated method stub
+		
+	}
+
 	
 	
 	

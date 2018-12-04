@@ -1,16 +1,15 @@
 package com.cx.dao;
 
+import java.util.List;
+
+import com.cx.entity.Message;
+
 public interface ImessageDao {
+//	查询所有message
+//	@param recipientId 收件人id
+	List<Message> findAll(Integer recipientId); 
 	
-	/*
-	 * 获取最大的message ID
-	 */
-	Integer getMaxId();
+//	添加message
+	void addMessage(Message message);
 	
-	/*
-	 * @param senderId 发送人id
-	 * @param recipientId 收信人id
-	 * @param content 信件内容
-	 */
-	void addMessage(Integer senderId, Integer recipientId, String content);
-}
+	}

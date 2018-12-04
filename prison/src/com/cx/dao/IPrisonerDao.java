@@ -6,16 +6,13 @@ import com.cx.entity.Prisoner;
 
 public interface IPrisonerDao {
 	
-//	查询所有囚犯
-	List<Prisoner> findAll();
 	/*
 	 * @param id 囚犯id
+	 * @param name 囚犯name
 	 */
-	Prisoner getById(Integer id);
-	
-	/*
-	 * @param name 囚犯姓名
-	 */
-	Prisoner getByName(String name);
+	List<Prisoner> findAll(Integer id, String name);
+
+//	增加囚犯
+	void add(Prisoner prisoner);
 	
 }
