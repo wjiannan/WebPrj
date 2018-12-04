@@ -39,7 +39,7 @@
                 <nav class="navbar">
                     <div class="tm-navbar-bg">
                         
-                        <a class="navbar-brand text-uppercase" href="zhuye.html"><i class="fa fa-flash tm-brand-icon"></i>影视</a>
+                        <a class="navbar-brand text-uppercase" href="zhuye.jsp"><i class="fa fa-flash tm-brand-icon"></i>影视</a>
 
                         <button class="navbar-toggler hidden-lg-up" type="button" data-toggle="collapse" data-target="#tmNavbar">
                             &#9776;
@@ -926,7 +926,7 @@
                                                 <p class="tm-text">Praesent tempus dapibus odio nec elementum. Sed elementum est quis tortor faucibus, et molestie nibh finibus. Mauris condimentum ex vestibulum fringilla consectetur.</p>                                                
                                                 
                                                 <!-- contact form -->
-                                                <form action="index.html" method="post" class="tm-contact-form">
+                                                <form action="index.jsp" method="post" class="tm-contact-form">
 
                                                     <div class="form-group">
                                                         <input type="text" id="contact_name" name="contact_name" class="form-control" placeholder="Name"  required/>

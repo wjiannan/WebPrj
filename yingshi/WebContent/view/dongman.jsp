@@ -50,7 +50,7 @@
 		<!--<div class="wrap-header">
 			<div class="zerogrid">
 				<div class="row">
-					<a href="index.html" class="logo"><img src="images/logo.png" /></a>
+					<a href="index.jsp" class="logo"><img src="images/logo.png" /></a>
 					<ul class="quick-link">
 						<li><a href="#" title="Upload Video"><i class="fa fa-upload"></i></a></li>
 						<li><a href="#" title="Log in"><i class="fa fa-user"></i></a></li>
@@ -69,7 +69,7 @@
 		<div class="bottom">
 			<div class="zerogrid">
 				<div class="row">
-					<span>欢迎来到动漫之家<a href="contact.html"></a></span>
+					<span>欢迎来到动漫之家<a href="contact.jsp"></a></span>
 				</div>
 			</div>
 		</div>
@@ -79,14 +79,14 @@
 	<!--<a href="#" class="nav-toggle">Toggle Navigation</a>-->
     <nav class="cmn-tile-nav">
 		<ul class="clearfix">
-			<li class="colour-1"><a href="zhuye.html">影视</a></li>
+			<li class="colour-1"><a href="zhuye.jsp">影视</a></li>
 			<li class="colour-2"><a href="#c1">番剧</a></li>
-			<li class="colour-2"><a href="meiriyitui.html">每日一推</a></li>
-			<li class="colour-3"><a href="yingpnig.html">专业影评</a></li>
-			<li class="colour-4"><a href="wenzhangzixun.html">文章资讯</a></li>
-			<li class="colour-5"><a href="../guankanjilu.html">观看记录</a></li>
-			<li class="colour-6"><a href="denglu.html ">登录</a></li>
-			<li class="colour-7"><a href="zhuce.html">注册</a></li>
+			<li class="colour-2"><a href="meiriyitui.jsp">每日一推</a></li>
+			<li class="colour-3"><a href="yingpnig.jsp">专业影评</a></li>
+			<li class="colour-4"><a href="wenzhangzixun.jsp">文章资讯</a></li>
+			<li class="colour-5"><a href="../guankanjilu.jsp">观看记录</a></li>
+			<li class="colour-6"><a href="denglu.jsp ">登录</a></li>
+			<li class="colour-7"><a href="zhuce.jsp">注册</a></li>
 			
 		</ul>
     </nav>
@@ -107,7 +107,7 @@
 									<span class="zoom-caption">
 										<i class="icon-play fa fa-play"></i>
 									</span>
-									<a href="single.html">
+									<a href="single.jsp">
 									<img src="../images/4.jpg" />
 								</a>
 							</div>
@@ -118,7 +118,7 @@
 					<div class="col-1-4">
 						<div class="wrap-col">
 							<div class="zoom-container">
-								<a href="single.html">
+								<a href="single.jsp">
 									<span class="zoom-caption">
 										<i class="icon-play fa fa-play"></i>
 									</span>
@@ -126,7 +126,7 @@
 								</a>
 							</div>
 							<div class="zoom-container">
-								<a href="single.html">
+								<a href="single.jsp">
 									<span class="zoom-caption">
 										<i class="icon-play fa fa-play"></i>
 									</span>
@@ -138,7 +138,7 @@
 					<div class="col-1-4">
 						<div class="wrap-col">
 							<div class="zoom-container">
-								<a href="single.html">
+								<a href="single.jsp">
 									<span class="zoom-caption">
 										<i class="icon-play fa fa-play"></i>
 									</span>
@@ -146,7 +146,7 @@
 								</a>
 							</div>
 							<div class="zoom-container">
-								<a href="single.html">
+								<a href="single.jsp">
 									<span class="zoom-caption">
 										<i class="icon-play fa fa-play"></i>
 									</span>
@@ -171,7 +171,7 @@
 								<div id="owl-demo-1" class="owl-carousel">
 									<div class="item wrap-vid">
 										<div class="zoom-container">
-											<a href="single.html">
+											<a href="single.jsp">
 												<span class="zoom-caption">
 													<i class="icon-play fa fa-play"></i>
 												</span>
@@ -187,7 +187,7 @@
 									</div>
 									<div class="item wrap-vid">
 										<div class="zoom-container">
-											<a href="single.html">
+											<a href="single.jsp">
 												<span class="zoom-caption">
 													<i class="icon-play fa fa-play"></i>
 												</span>
@@ -203,7 +203,7 @@
 									</div>
 									<div class="item wrap-vid">
 										<div class="zoom-container">
-											<a href="single.html">
+											<a href="single.jsp">
 												<span class="zoom-caption">
 													<i class="icon-play fa fa-play"></i>
 												</span>
@@ -219,7 +219,7 @@
 									</div>
 									<div class="item wrap-vid">
 										<div class="zoom-container">
-											<a href="single.html">
+											<a href="single.jsp">
 												<span class="zoom-caption">
 													<i class="icon-play fa fa-play"></i>
 												</span>
@@ -235,7 +235,7 @@
 									</div>
 									<div class="item wrap-vid">
 										<div class="zoom-container">
-											<a href="single.html">
+											<a href="single.jsp">
 												<span class="zoom-caption">
 													<i class="icon-play fa fa-play"></i>
 												</span>
@@ -251,7 +251,7 @@
 									</div>
 									<div class="item wrap-vid">
 										<div class="zoom-container">
-											<a href="single.html">
+											<a href="single.jsp">
 												<span class="zoom-caption">
 													<i class="icon-play fa fa-play"></i>
 												</span>
@@ -267,7 +267,7 @@
 									</div>
 									<div class="item wrap-vid">
 										<div class="zoom-container">
-											<a href="single.html">
+											<a href="single.jsp">
 												<span class="zoom-caption">
 													<i class="icon-play fa fa-play"></i>
 												</span>
@@ -283,7 +283,7 @@
 									</div>
 									<div class="item wrap-vid">
 										<div class="zoom-container">
-											<a href="single.html">
+											<a href="single.jsp">
 												<span class="zoom-caption">
 													<i class="icon-play fa fa-play"></i>
 												</span>
@@ -311,7 +311,7 @@
 								<div id="owl-demo-2" class="owl-carousel">
 									<div class="item wrap-vid">
 										<div class="zoom-container">
-											<a href="single.html">
+											<a href="single.jsp">
 												<span class="zoom-caption">
 													<i class="icon-play fa fa-play"></i>
 												</span>
@@ -327,7 +327,7 @@
 									</div>
 									<div class="item wrap-vid">
 										<div class="zoom-container">
-											<a href="single.html">
+											<a href="single.jsp">
 												<span class="zoom-caption">
 													<i class="icon-play fa fa-play"></i>
 												</span>
@@ -343,7 +343,7 @@
 									</div>
 									<div class="item wrap-vid">
 										<div class="zoom-container">
-											<a href="single.html">
+											<a href="single.jsp">
 												<span class="zoom-caption">
 													<i class="icon-play fa fa-play"></i>
 												</span>
@@ -359,7 +359,7 @@
 									</div>
 									<div class="item wrap-vid">
 										<div class="zoom-container">
-											<a href="single.html">
+											<a href="single.jsp">
 												<span class="zoom-caption">
 													<i class="icon-play fa fa-play"></i>
 												</span>
@@ -375,7 +375,7 @@
 									</div>
 									<div class="item wrap-vid">
 										<div class="zoom-container">
-											<a href="single.html">
+											<a href="single.jsp">
 												<span class="zoom-caption">
 													<i class="icon-play fa fa-play"></i>
 												</span>
@@ -391,7 +391,7 @@
 									</div>
 									<div class="item wrap-vid">
 										<div class="zoom-container">
-											<a href="single.html">
+											<a href="single.jsp">
 												<span class="zoom-caption">
 													<i class="icon-play fa fa-play"></i>
 												</span>
@@ -407,7 +407,7 @@
 									</div>
 									<div class="item wrap-vid">
 										<div class="zoom-container">
-											<a href="single.html">
+											<a href="single.jsp">
 												<span class="zoom-caption">
 													<i class="icon-play fa fa-play"></i>
 												</span>
@@ -423,7 +423,7 @@
 									</div>
 									<div class="item wrap-vid">
 										<div class="zoom-container">
-											<a href="single.html">
+											<a href="single.jsp">
 												<span class="zoom-caption">
 													<i class="icon-play fa fa-play"></i>
 												</span>
@@ -451,7 +451,7 @@
 								<div id="owl-demo-3" class="owl-carousel">
 									<div class="item wrap-vid">
 										<div class="zoom-container">
-											<a href="single.html">
+											<a href="single.jsp">
 												<span class="zoom-caption">
 													<i class="icon-play fa fa-play"></i>
 												</span>
@@ -467,7 +467,7 @@
 									</div>
 									<div class="item wrap-vid">
 										<div class="zoom-container">
-											<a href="single.html">
+											<a href="single.jsp">
 												<span class="zoom-caption">
 													<i class="icon-play fa fa-play"></i>
 												</span>
@@ -483,7 +483,7 @@
 									</div>
 									<div class="item wrap-vid">
 										<div class="zoom-container">
-											<a href="single.html">
+											<a href="single.jsp">
 												<span class="zoom-caption">
 													<i class="icon-play fa fa-play"></i>
 												</span>
@@ -499,7 +499,7 @@
 									</div>
 									<div class="item wrap-vid">
 										<div class="zoom-container">
-											<a href="single.html">
+											<a href="single.jsp">
 												<span class="zoom-caption">
 													<i class="icon-play fa fa-play"></i>
 												</span>
@@ -515,7 +515,7 @@
 									</div>
 									<div class="item wrap-vid">
 										<div class="zoom-container">
-											<a href="single.html">
+											<a href="single.jsp">
 												<span class="zoom-caption">
 													<i class="icon-play fa fa-play"></i>
 												</span>
@@ -531,7 +531,7 @@
 									</div>
 									<div class="item wrap-vid">
 										<div class="zoom-container">
-											<a href="single.html">
+											<a href="single.jsp">
 												<span class="zoom-caption">
 													<i class="icon-play fa fa-play"></i>
 												</span>
@@ -547,7 +547,7 @@
 									</div>
 									<div class="item wrap-vid">
 										<div class="zoom-container">
-											<a href="single.html">
+											<a href="single.jsp">
 												<span class="zoom-caption">
 													<i class="icon-play fa fa-play"></i>
 												</span>
@@ -563,7 +563,7 @@
 									</div>
 									<div class="item wrap-vid">
 										<div class="zoom-container">
-											<a href="single.html">
+											<a href="single.jsp">
 												<span class="zoom-caption">
 													<i class="icon-play fa fa-play"></i>
 												</span>
@@ -600,7 +600,7 @@
 						<div class="wid-content">
 							<div class="post wrap-vid">
 								<div class="zoom-container">
-									<a href="single.html">
+									<a href="single.jsp">
 										<span class="zoom-caption">
 											<i class="icon-play fa fa-play"></i>
 										</span>
@@ -618,7 +618,7 @@
 							</div>
 							<div class="post wrap-vid">
 								<div class="zoom-container">
-									<a href="single.html">
+									<a href="single.jsp">
 										<span class="zoom-caption">
 											<i class="icon-play fa fa-play"></i>
 										</span>
@@ -636,7 +636,7 @@
 							</div>
 							<div class="post wrap-vid">
 								<div class="zoom-container">
-									<a href="single.html">
+									<a href="single.jsp">
 										<span class="zoom-caption">
 											<i class="icon-play fa fa-play"></i>
 										</span>
@@ -665,7 +665,7 @@
 							<div class="row">
 								<div class="wrap-vid">
 									<div class="zoom-container">
-										<a href="single.html">
+										<a href="single.jsp">
 											<span class="zoom-caption">
 												<i class="icon-play fa fa-play"></i>
 											</span>
@@ -683,7 +683,7 @@
 							<div class="row">
 								<div class="wrap-vid">
 									<div class="zoom-container">
-										<a href="single.html">
+										<a href="single.jsp">
 											<span class="zoom-caption">
 												<i class="icon-play fa fa-play"></i>
 											</span>
@@ -701,7 +701,7 @@
 							<div class="row">
 								<div class="wrap-vid">
 									<div class="zoom-container">
-										<a href="single.html">
+										<a href="single.jsp">
 											<span class="zoom-caption">
 												<i class="icon-play fa fa-play"></i>
 											</span>
@@ -748,7 +748,7 @@
 			<div class="row">
 				<div class="col-1-4 col-footer-1">
 					<div class="wrap-col">
-						<a href="index.html" class="logo"><img src="images/logo.png" /></a>
+						<a href="index.jsp" class="logo"><img src="images/logo.png" /></a>
 						<p>Ut volutpat consectetur aliquam. Curabitur auctor in nis ulum ornare. Sed consequat, augue condimentum fermentum gravida, metus elit vehicula dui.</p>
 					</div>
 				</div>

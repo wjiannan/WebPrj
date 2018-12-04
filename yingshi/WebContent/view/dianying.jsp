@@ -413,7 +413,7 @@ white-space: nowrap;
 	
 	
 		<div class="topnav" id="daohanglan">
-		  <a class="active tupianxiaoguo" href="zhuye.html" style="color: #999;">影视</a>
+		  <a class="active tupianxiaoguo" href="zhuye.jsp" style="color: #999;">影视</a>
 		  <div class="search-container">
 		    <form action="/action_page.php">
 		      <input type="text" placeholder="变形金刚5" name="search">
@@ -422,9 +422,9 @@ white-space: nowrap;
 		      
 		      
 		    </form>
-		    	<ul class="ceshi navbar-right tupianxiaoguo"><a href="denglu.html">登录</a></ul>  
-		       	<ul class="ceshi navbar-right tupianxiaoguo"><a href="zhuce.html">注册</a></ul>  
-		       	<ul class="ceshi navbar-right tupianxiaoguo"><a href="yonghu.html">用户</a></ul>  
+		    	<ul class="ceshi navbar-right tupianxiaoguo"><a href="denglu.jsp">登录</a></ul>  
+		       	<ul class="ceshi navbar-right tupianxiaoguo"><a href="zhuce.jsp">注册</a></ul>  
+		       	<ul class="ceshi navbar-right tupianxiaoguo"><a href="yonghu.jsp">用户</a></ul>  
 		       	
 		    	
 		    
@@ -485,7 +485,7 @@ white-space: nowrap;
 			
 <div class='card-holder'>
 <div class='card-wrapper'>
-<a   href="oumeidianying.html">
+<a   href="oumeidianying.jsp">
 <div class='card bg-01'>
 <span class='card-content'>欧美电影</span>
 </div>
@@ -587,7 +587,7 @@ white-space: nowrap;
 					<div class="tupian_2">
 						
 						<div class="yinduhehuoren">
-							<a href="变形金刚5播放.html" target="_blank"> <img src="../img/dianyingfenlei/bianxing.png" class="img_02 tupianxiaoguo2"/></a>
+							<a href="变形金刚5播放.jsp" target="_blank"> <img src="../img/dianyingfenlei/bianxing.png" class="img_02 tupianxiaoguo2"/></a>
 							变形金刚5：最后的骑士
 						</div>
 					</div>
@@ -633,7 +633,7 @@ white-space: nowrap;
 				
 				<!--oumeidianying-->
 				<div class="oumei">
-					<a style="text-decoration:none;color: black;" href="oumeidianying.html"><h2>欧美电影</h2></a>	
+					<a style="text-decoration:none;color: black;" href="oumeidianying.jsp"><h2>欧美电影</h2></a>	
 				</div>
 				
 				<div class="oumeidianying  ">
@@ -645,7 +645,7 @@ white-space: nowrap;
 				</div>
 				</div>
 					<div class="box-content">
-					<a href="测试视频播放器.html"><h4 class="title">侏罗纪世界2</h4></a>
+					<a href="测试视频播放器.jsp"><h4 class="title">侏罗纪世界2</h4></a>
 					<p class="description">片名“布希维克”本是美国纽约一个区的区名，故事也发生在这个地区。《布希维克》，男女主人公来到布希维克，本来轻松愉悦的两人却突然遭遇恐怖袭击，枪战、爆炸遍布城市，紧张窒息的情绪扑面而来。<ul class="social-links"> 
 					</ul>
 				</div>
@@ -661,7 +661,7 @@ white-space: nowrap;
 				</div>
 					<div class="box-content">
 					<h4 class="title">全境警戒</h4>
-					<a href="index.html"><p class="description">片名“布希维克”本是美国纽约一个区的区名，故事也发生在这个地区。《布希维克》，男女主人公来到布希维克，本来轻松愉悦的两人却突然遭遇恐怖袭击，枪战、爆炸遍布城市，紧张窒息的情绪扑面而来。<ul class="social-links"></a> 
+					<a href="index.jsp"><p class="description">片名“布希维克”本是美国纽约一个区的区名，故事也发生在这个地区。《布希维克》，男女主人公来到布希维克，本来轻松愉悦的两人却突然遭遇恐怖袭击，枪战、爆炸遍布城市，紧张窒息的情绪扑面而来。<ul class="social-links"></a> 
 					</ul>
 				</div>
 				</div>
@@ -677,7 +677,7 @@ white-space: nowrap;
 				</div>
 				</div>
 					<div class="box-content">
-					<a href="index.html"><h4 class="title">全球风暴</h4></a> 
+					<a href="index.jsp"><h4 class="title">全球风暴</h4></a> 
 					<p class="description">片名“布希维克”本是美国纽约一个区的区名，故事也发生在这个地区。《布希维克》，男女主人公来到布希维克，本来轻松愉悦的两人却突然遭遇恐怖袭击，枪战、爆炸遍布城市，紧张窒息的情绪扑面而来。<ul class="social-links"></a> 
 					</ul>
 				</div>
@@ -693,7 +693,7 @@ white-space: nowrap;
 				</div>
 				</div>
 					<div class="box-content">
-					<a href="index.html"><h4 class="title">头号玩家</h4></a> 
+					<a href="index.jsp"><h4 class="title">头号玩家</h4></a> 
 					<p class="description">片名“布希维克”本是美国纽约一个区的区名，故事也发生在这个地区。《布希维克》，男女主人公来到布希维克，本来轻松愉悦的两人却突然遭遇恐怖袭击，枪战、爆炸遍布城市，紧张窒息的情绪扑面而来。<ul class="social-links"></a> 
 					</ul>
 				</div>
@@ -710,7 +710,7 @@ white-space: nowrap;
 				</div>
 				</div>
 					<div class="box-content">
-					<a href="index.html"><h4 class="title">寂静之地</h4></a> 
+					<a href="index.jsp"><h4 class="title">寂静之地</h4></a> 
 					<p class="description">片名“布希维克”本是美国纽约一个区的区名，故事也发生在这个地区。《布希维克》，男女主人公来到布希维克，本来轻松愉悦的两人却突然遭遇恐怖袭击，枪战、爆炸遍布城市，紧张窒息的情绪扑面而来。<ul class="social-links"></a> 
 					</ul>
 				</div>
@@ -724,7 +724,7 @@ white-space: nowrap;
 				</div>
 				</div>
 					<div class="box-content">
-					<a href="index.html"><h4 class="title">巨齿鲨</h4></a> 
+					<a href="index.jsp"><h4 class="title">巨齿鲨</h4></a> 
 					<p class="description">片名“布希维克”本是美国纽约一个区的区名，故事也发生在这个地区。《布希维克》，男女主人公来到布希维克，本来轻松愉悦的两人却突然遭遇恐怖袭击，枪战、爆炸遍布城市，紧张窒息的情绪扑面而来。<ul class="social-links"></a> 
 					</ul>
 				</div>

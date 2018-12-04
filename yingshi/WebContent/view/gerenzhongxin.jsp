@@ -41,37 +41,37 @@
 			<div class="left">
 				<ul>
 					<li>
-						<a href="个人中心0.html" class="active">
+						<a href="个人中心0.jsp" class="active">
 							<i class="icon iconfont icon-vip1"></i>
 							VIP会员
 						</a>
 					</li>
 					<li>
-						<a href="../guankanjilu.html">
+						<a href="../guankanjilu.jsp">
 							<i class="icon iconfont icon-lishi"></i>
 							观看历史
 						</a>
 					</li>
 					<li>
-						<a href="个人中心2.html">
+						<a href="个人中心2.jsp">
 							<i class="icon iconfont icon-iconfontzhizuobiaozhun13"></i>
 							看单
 						</a>
 					</li>
 					<li>
-						<a href="个人中心3.html">
+						<a href="个人中心3.jsp">
 							<i class="icon iconfont icon-xiaoxi"></i>
 							我的消息
 						</a>
 					</li>
 					<li>
-						<a href="个人中心4.html">
+						<a href="个人中心4.jsp">
 							<i class="icon iconfont icon-46"></i>
 							下载
 						</a>
 					</li>
 					<li>
-						<a href="个人中心5.html">
+						<a href="个人中心5.jsp">
 							<i class="icon iconfont icon-gerenziliao"></i>
 							个人资料
 						</a>

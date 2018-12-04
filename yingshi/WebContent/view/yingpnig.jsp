@@ -1,4 +1,6 @@
-﻿<!DOCTYPE html>
+﻿<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
 <html crossriderapp2258="true"><head>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
 		<!-- title -->
@@ -23,9 +25,9 @@
 	    		<div class="container_16">
 	    			<h1 class="grid_8"><a href="#">专业影评</a></h1>
 					<nav class="grid_8">
-					        <ul id="menu-menu" class="menu"><li><a href="zhuye.html">影视</a></li>
-							<li><a href="zhuce.html">注册</a></li>
-							<li><a href="gerenzhongxin.html">用户</a></li>
+					        <ul id="menu-menu" class="menu"><li><a href="zhuye.jsp">影视</a></li>
+							<li><a href="zhuce.jsp">注册</a></li>
+							<li><a href="gerenzhuye.jsp">用户</a></li>
 							</ul>					
                     </nav>
 	    		</div>

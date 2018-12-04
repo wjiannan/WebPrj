@@ -1,3 +1,5 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 	<head>
@@ -147,7 +149,7 @@
 	
 	
 		<div class="topnav " id="daohanglan" >
-		  <a class="active tupianxiaoguo" href="主页.html" style="color: #999;">影视</a>
+		  <a class="active tupianxiaoguo" href="主页.jsp" style="color: #999;">影视</a>
 		  <div class="search-container">
 		    <form action="/action_page.php">
 		      <input type="text" placeholder="bianxing5" name="search">
@@ -156,9 +158,9 @@
 		      
 		      
 		    </form>
-		    	<ul class="ceshi navbar-right tupianxiaoguo"><a href="denglu.html">登录</a></ul>  
-		       	<ul class="ceshi navbar-right tupianxiaoguo"><a href="zhuce.html">注册</a></ul>  
-		       	<ul class="ceshi navbar-right tupianxiaoguo"><a href="gerenzhongxin.html">用户</a></ul>  
+		    	<ul class="ceshi navbar-right tupianxiaoguo"><a href="denglu.jsp">登录</a></ul>  
+		       	<ul class="ceshi navbar-right tupianxiaoguo"><a href="zhuce.jsp">注册</a></ul>  
+		       	<ul class="ceshi navbar-right tupianxiaoguo"><a href="gerenzhuye.jsp">用户</a></ul>  
 		       	
 
 		  </div>
@@ -173,7 +175,7 @@
 			
 <div class='card-holder'>
 <div class='card-wrapper'>
-<a   href="oumeidianying.html">
+<a   href="oumeidianying.jsp">
 <div class='card bg-01'>
 <span class='card-content'>欧美电影</span>
 </div>
@@ -181,7 +183,7 @@
 </div>
 
 <div class='card-wrapper'>
-<a href='rihandianying.html'>
+<a href='rihandianying.jsp'>
 <div class='card bg-01'>
 <span class='card-content'>日韩电影</span>
 </div>
@@ -189,7 +191,7 @@
 </div>
 
 <div class='card-wrapper'>
-<a href='gangtaidianying.html'>
+<a href='gangtaidianying.jsp'>
 <div class='card bg-01'>
 <span class='card-content'>港台电影</span>
 </div>
@@ -198,7 +200,7 @@
 
 
 <div class='card-wrapper'>
-<a href='guochandianying.html'>
+<a href='guochandianying.jsp'>
 <div class='card bg-01'>
 <span class='card-content'>国产电影</span>
 </div>
@@ -206,7 +208,7 @@
 </div>
 
 <div class='card-wrapper'>
-<a href='qitadiqu.html'>
+<a href='qitadiqu.jsp'>
 <div class='card bg-01'>
 <span class='card-content'>其他地区</span>
 </div>
@@ -214,7 +216,7 @@
 </div>
 
 <div class='card-wrapper'>
-<a href='meiriyitui.html'>
+<a href='meiriyitui.jsp'>
 <div class='card bg-01'>
 <span class='card-content'>每日一推</span>
 </div>
@@ -222,7 +224,7 @@
 </div>
 
 <div class='card-wrapper'>
-<a href='yingpnig.html'>
+<a href='yingpnig.jsp'>
 <div class='card bg-01'>
 <span class='card-content'>专业影评</span>
 </div>
@@ -230,7 +232,7 @@
 </div>
 
 <div class='card-wrapper'>
-<a href='dongman.html'>
+<a href='dongman.jsp'>
 <div class='card bg-01'>
 <span class='card-content'>动漫之家</span>
 </div>
@@ -264,14 +266,14 @@
 		
 			<ul>
 				
-				<li><a href="1-测试.html"><img src="../img/lunbofenlei/oumeidianying/duye.png"/></a></li>
+				<li><a href="1-测试.jsp"><img src="../img/lunbofenlei/oumeidianying/duye.png"/></a></li>
 		
-				<li><a href="1-测试.html"><img src="../img/lunbofenlei/oumeidianying/gangtiexia.png"/></a></li>
+				<li><a href="1-测试.jsp"><img src="../img/lunbofenlei/oumeidianying/gangtiexia.png"/></a></li>
 		
-				<li><a href="1-测试.html"><img src="../img/lunbofenlei/oumeidianying/heibao.png"/></a></li>
-				<li><a href="1-测试.html"><img src="../img/lunbofenlei/oumeidianying/bianxing.png"/></a></li>
-				<li><a href="1-测试.html"><img src="../img/lunbofenlei/oumeidianying/qiyi.png"/></a></li>
-				<li><a href="bianxing5播放.html"><img src="../img/lunbofenlei/oumeidianying/leishen.png"/></a></li>
+				<li><a href="1-测试.jsp"><img src="../img/lunbofenlei/oumeidianying/heibao.png"/></a></li>
+				<li><a href="1-测试.jsp"><img src="../img/lunbofenlei/oumeidianying/bianxing.png"/></a></li>
+				<li><a href="1-测试.jsp"><img src="../img/lunbofenlei/oumeidianying/qiyi.png"/></a></li>
+				<li><a href="bianxing5播放.jsp"><img src="../img/lunbofenlei/oumeidianying/leishen.png"/></a></li>
 		
 
 		
@@ -299,7 +301,7 @@
 				</div>
 				</div>
 					<div class="box-content">
-					<a href="测试视频播放器.html"><h4 class="title">侏罗纪世界2</h4></a>
+					<a href="测试视频播放器.jsp"><h4 class="title">侏罗纪世界2</h4></a>
 					<p class="description">片名“布希维克”本是美国纽约一个区的区名，故事也发生在这个地区。《布希维克》，男女主人公来到布希维克，本来轻松愉悦的两人却突然遭遇恐怖袭击，枪战、爆炸遍布城市，紧张窒息的情绪扑面而来。<ul class="social-links"> 
 					</ul>
 				</div>
@@ -315,7 +317,7 @@
 				</div>
 					<div class="box-content">
 					<h4 class="title">全境警戒</h4>
-					<a href="index.html"><p class="description">片名“布希维克”本是美国纽约一个区的区名，故事也发生在这个地区。《布希维克》，男女主人公来到布希维克，本来轻松愉悦的两人却突然遭遇恐怖袭击，枪战、爆炸遍布城市，紧张窒息的情绪扑面而来。<ul class="social-links"></a> 
+					<a href="index.jsp"><p class="description">片名“布希维克”本是美国纽约一个区的区名，故事也发生在这个地区。《布希维克》，男女主人公来到布希维克，本来轻松愉悦的两人却突然遭遇恐怖袭击，枪战、爆炸遍布城市，紧张窒息的情绪扑面而来。<ul class="social-links"></a> 
 					</ul>
 				</div>
 				</div>
@@ -331,7 +333,7 @@
 				</div>
 				</div>
 					<div class="box-content">
-					<a href="index.html"><h4 class="title">全球风暴</h4></a> 
+					<a href="index.jsp"><h4 class="title">全球风暴</h4></a> 
 					<p class="description">片名“布希维克”本是美国纽约一个区的区名，故事也发生在这个地区。《布希维克》，男女主人公来到布希维克，本来轻松愉悦的两人却突然遭遇恐怖袭击，枪战、爆炸遍布城市，紧张窒息的情绪扑面而来。<ul class="social-links"></a> 
 					</ul>
 				</div>
@@ -347,7 +349,7 @@
 				</div>
 				</div>
 					<div class="box-content">
-					<a href="index.html"><h4 class="title">头号玩家</h4></a> 
+					<a href="index.jsp"><h4 class="title">头号玩家</h4></a> 
 					<p class="description">片名“布希维克”本是美国纽约一个区的区名，故事也发生在这个地区。《布希维克》，男女主人公来到布希维克，本来轻松愉悦的两人却突然遭遇恐怖袭击，枪战、爆炸遍布城市，紧张窒息的情绪扑面而来。<ul class="social-links"></a> 
 					</ul>
 				</div>
@@ -364,7 +366,7 @@
 				</div>
 				</div>
 					<div class="box-content">
-					<a href="index.html"><h4 class="title">寂静之地</h4></a> 
+					<a href="index.jsp"><h4 class="title">寂静之地</h4></a> 
 					<p class="description">片名“布希维克”本是美国纽约一个区的区名，故事也发生在这个地区。《布希维克》，男女主人公来到布希维克，本来轻松愉悦的两人却突然遭遇恐怖袭击，枪战、爆炸遍布城市，紧张窒息的情绪扑面而来。<ul class="social-links"></a> 
 					</ul>
 				</div>
@@ -378,7 +380,7 @@
 				</div>
 				</div>
 					<div class="box-content">
-					<a href="index.html"><h4 class="title">巨齿鲨</h4></a> 
+					<a href="index.jsp"><h4 class="title">巨齿鲨</h4></a> 
 					<p class="description">片名“布希维克”本是美国纽约一个区的区名，故事也发生在这个地区。《布希维克》，男女主人公来到布希维克，本来轻松愉悦的两人却突然遭遇恐怖袭击，枪战、爆炸遍布城市，紧张窒息的情绪扑面而来。<ul class="social-links"></a> 
 					</ul>
 				</div>
@@ -398,14 +400,14 @@
 		
 			<ul>
 				
-				<li><a href="1-测试.html"><img src="../img/lunbofenlei/oumeidianying/duye.png"/></a></li>
+				<li><a href="1-测试.jsp"><img src="../img/lunbofenlei/oumeidianying/duye.png"/></a></li>
 		
-				<li><a href="1-测试.html"><img src="../img/lunbofenlei/oumeidianying/gangtiexia.png"/></a></li>
+				<li><a href="1-测试.jsp"><img src="../img/lunbofenlei/oumeidianying/gangtiexia.png"/></a></li>
 		
-				<li><a href="1-测试.html"><img src="../img/lunbofenlei/oumeidianying/heibao.png"/></a></li>
-				<li><a href="1-测试.html"><img src="../img/lunbofenlei/oumeidianying/bianxing.png"/></a></li>
-				<li><a href="1-测试.html"><img src="../img/lunbofenlei/oumeidianying/qiyi.png"/></a></li>
-				<li><a href="bianxing5播放.html"><img src="../img/lunbofenlei/oumeidianying/leishen.png"/></a></li>
+				<li><a href="1-测试.jsp"><img src="../img/lunbofenlei/oumeidianying/heibao.png"/></a></li>
+				<li><a href="1-测试.jsp"><img src="../img/lunbofenlei/oumeidianying/bianxing.png"/></a></li>
+				<li><a href="1-测试.jsp"><img src="../img/lunbofenlei/oumeidianying/qiyi.png"/></a></li>
+				<li><a href="bianxing5播放.jsp"><img src="../img/lunbofenlei/oumeidianying/leishen.png"/></a></li>
 		
 
 		
@@ -427,14 +429,14 @@
 		
 			<ul>
 				
-				<li><a href="1-测试.html"><img src="../img/lunbofenlei/oumeidianying/duye.png"/></a></li>
+				<li><a href="1-测试.jsp"><img src="../img/lunbofenlei/oumeidianying/duye.png"/></a></li>
 		
-				<li><a href="1-测试.html"><img src="../img/lunbofenlei/oumeidianying/gangtiexia.png"/></a></li>
+				<li><a href="1-测试.jsp"><img src="../img/lunbofenlei/oumeidianying/gangtiexia.png"/></a></li>
 		
-				<li><a href="1-测试.html"><img src="../img/lunbofenlei/oumeidianying/heibao.png"/></a></li>
-				<li><a href="1-测试.html"><img src="../img/lunbofenlei/oumeidianying/bianxing.png"/></a></li>
-				<li><a href="1-测试.html"><img src="../img/lunbofenlei/oumeidianying/qiyi.png"/></a></li>
-				<li><a href="bianxing5播放.html"><img src="../img/lunbofenlei/oumeidianying/leishen.png"/></a></li>
+				<li><a href="1-测试.jsp"><img src="../img/lunbofenlei/oumeidianying/heibao.png"/></a></li>
+				<li><a href="1-测试.jsp"><img src="../img/lunbofenlei/oumeidianying/bianxing.png"/></a></li>
+				<li><a href="1-测试.jsp"><img src="../img/lunbofenlei/oumeidianying/qiyi.png"/></a></li>
+				<li><a href="bianxing5播放.jsp"><img src="../img/lunbofenlei/oumeidianying/leishen.png"/></a></li>
 		
 
 		
