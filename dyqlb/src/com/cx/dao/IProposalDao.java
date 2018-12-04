@@ -1,5 +1,7 @@
 package com.cx.dao;
 
-public interface IProposalDao {
+import com.cx.entity.Proposal;
 
+public interface IProposalDao {
+	void save(Proposal proposal);
 }

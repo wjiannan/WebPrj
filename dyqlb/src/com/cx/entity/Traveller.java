@@ -17,7 +17,7 @@ public class Traveller {
     private String eMail;
     private Date startDate;
     private Date returnDate;
-    private String travellersNumber;
+    private Integer travellersNumber;
     
 	public Integer getId() {
 		return id;
@@ -55,10 +55,11 @@ public class Traveller {
 	public void setReturnDate(Date returnDate) {
 		this.returnDate = returnDate;
 	}
-	public String getTravellersNumber() {
+	
+	public Integer getTravellersNumber() {
 		return travellersNumber;
 	}
-	public void setTravellersNumber(String travellersNumber) {
+	public void setTravellersNumber(Integer travellersNumber) {
 		this.travellersNumber = travellersNumber;
 	}
 	@Override
