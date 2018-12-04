@@ -28,13 +28,13 @@
 	<body>
 		<header class="container header"style="overflow-x: hidden;overflow-y: hidden;">
 			<div class="div1" >
-				<a href="home_page.html" style="position: absolute;top: 5%;left: 3%;">
+				<a href="http://localhost:8888/Benz/views/home_page.jsp" style="position: absolute;top: 5%;left: 3%;">
 					<img src="/Benz/img/logo.png" />
 				</a>
 				<div class="myarea">
 					<ul class="breadcrumb" style="background-color: #000000;">
-    					<li><a href="#">登录</a></li>
-   						<li><a href="#">注册</a></li>
+    					<li><a href="http://localhost:8888/Benz/views/login.jsp">登录</a></li>
+   						<li><a href="http://localhost:8888/Benz/views/register.jsp">注册</a></li>
 					</ul>
 				</div>
 				<div class="text mynav">
@@ -415,7 +415,7 @@
 							</div>
 						</div>
 						<div  style="margin-bottom: 70px;">
-							<a href="#"><img src="/Benz/img/guide/Test_Drive.png" width="23%"><p>预约试驾</p></a>
+							<a href="http://localhost:8888/Benz/views/test_drive.jsp"><img src="/Benz/img/guide/Test_Drive.png" width="23%"><p>预约试驾</p></a>
 							<p style="font-size: 12px;padding-top: 5px;">选择您心仪的车型，联系经销商，即刻体验梅赛德斯-奔驰。</p>
 						</div>
 						<hr />
@@ -432,7 +432,7 @@
 					<a href="http://localhost:8888/Benz/views/customer-service.jsp">客户服务</a>
 				</div>
 				<div class="text" style="color: white;">
-					<a href="http://localhost:8888/Benz/views/mercedes%20me.jsp">mercedes me</a>
+					<a href="http://localhost:8888/Benz/views/mercedes_me.jsp">mercedes me</a>
 				</div>
 				<div class="text" style="color: white;">
 					<a href="http://localhost:8888/Benz/views/mercedes-AMG.jsp">梅赛德斯</a>
@@ -484,7 +484,7 @@
 					<li class="char2"><a href="#">限时购车新方案</a></li>
 					<li class="char2"><a href="#">查找经销商</a></li>
 				    <li class="char2"><a href="#">金融计算器</a></li>
-					<li class="char2"><a href="#">预约试驾</a></li>
+					<li class="char2"><a href="http://localhost:8888/Benz/views/test_drive.jsp">预约试驾</a></li>
 					<li class="char2"><a href="#">下载手册</a></li>
 				</ul>
 			</div>
@@ -494,18 +494,18 @@
 					<li class="char2"><a href="#">星徽保养菜单</a></li>
 					<li class="char2"><a href="#">原厂修养套餐家族</a></li>
 					<li class="char2"><a href="#">手机端服务体验</a></li>
-				    <li class="char2"><a href="#">原厂配件</a></li>
+				    <li class="char2"><a href="http://localhost:8888/Benz/views/genuine-parts.jsp">原厂配件</a></li>
 					<li class="char2"><a href="#">事故与保险服务</a></li>
 					<li class="char2"><a href="#">24小时道路救援</a></li>
 					<li class="char2"><a href="#">召回通知</a></li>
 					<li class="char2"><a href="#">留学回国人员购车业务</a></li>
-					<li class="char2"><a href="#">金融服务</a></li>
+					<li class="char2"><a href="http://localhost:8888/Benz/views/finanical-service.jsp">金融服务</a></li>
 				</ul>
 			</div>
 			<div style="display: inline">
 				<ul>
 					<li class="char1">奔驰天下</li>
-					<li class="char2"><a href="#">Mercedes me</a></li>
+					<li class="char2"><a href="http://localhost:8888/Benz/views/mercedes_me.jsp">Mercedes me</a></li>
 					<li class="char2"><a href="#">品牌介绍</a></li>
 					<li class="char2"><a href="#">奔驰新闻</a></li>
 				    <li class="char2"><a href="#">企业社会责任</a></li>
@@ -520,10 +520,10 @@
 			<hr />
 			</div>
 			<div ><p class="char1">其他奔驰网站</p>
-		          <span><a href="#">Mercedes me</a></span>
+		          <span><a href="http://localhost:8888/Benz/views/mercedes_me.jsp">Mercedes me</a></span>
 		          <span><a href="#">星瑞认证二手车</a></span>
 		          <span><a href="#">She'sMercedes</a></span>
-		          <span><a href="#">金融服务</a></span>
+		          <span><a href="http://localhost:8888/Benz/views/finanical-service.jsp">金融服务</a></span>
 			</div>
 			<br />
 			<hr />

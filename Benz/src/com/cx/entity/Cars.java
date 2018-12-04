@@ -3,10 +3,28 @@ package com.cx.entity;
 public class Cars {
 
 	private String name;
-	private int price;
+	private float price;
 	private String level;
+	private String img;
+	private String type;
 	
 	
+	public String getImg() {
+		return img;
+	}
+
+	public void setImg(String img) {
+		this.img = img;
+	}
+
+	public String getType() {
+		return type;
+	}
+
+	public void setType(String type) {
+		this.type = type;
+	}
+
 	public Cars() {
 		// TODO Auto-generated constructor stub
 	}
@@ -19,11 +37,11 @@ public class Cars {
 		this.name = name;
 	}
 
-	public int getPrice() {
+	public float getPrice() {
 		return price;
 	}
 
-	public void setPrice(int price) {
+	public void setPrice(float price) {
 		this.price = price;
 	}
 
