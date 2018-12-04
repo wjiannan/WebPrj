@@ -25,7 +25,7 @@ public interface IStarDao {
 	 * 
 	 * @param starName 明星的名称
 	 * @param area_id 该明星所在区域的id
-	 * @return
+	 * @return s
 	 */
 	List<Star> findAll(String starName,Integer area_id);
 }
