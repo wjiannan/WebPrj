@@ -5,4 +5,8 @@ import java.util.List;
 
 public interface IAreaDao{
 	List<Area> findAll();
+	
+	Area getByName(String name);
+	
+	
 }

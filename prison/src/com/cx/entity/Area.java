@@ -11,7 +11,7 @@ package com.cx.entity;
 
 public class Area {
 	private String areaName;
-	private String areaMax;
+	private Integer areaMax;
 	
 	public Area() {
 		
@@ -25,11 +25,11 @@ public class Area {
 		this.areaName = areaName;
 	}
 
-	public String getAreaMax() {
+	public Integer getAreaMax() {
 		return areaMax;
 	}
 
-	public void setAreaMax(String areaMax) {
+	public void setAreaMax(Integer areaMax) {
 		this.areaMax = areaMax;
 	}
 
