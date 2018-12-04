@@ -2,14 +2,19 @@ package com.cx.dao.impl;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
+import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 
 import com.cx.dao.IStarDao;
 import com.cx.entity.Star;
 import com.cx.util.support.IPreparedStatementCallBack;
+import com.cx.util.support.IResultSetCallBack;
 import com.cx.util.support.JdbcTemplate;
 
+@SuppressWarnings("all")
 public class StarDaoImpl implements IStarDao{
 
 	@Override
@@ -58,10 +63,67 @@ public class StarDaoImpl implements IStarDao{
 		});
 	}
 
+	/**
+	 * 可以完成对starName的模糊查询
+	 * 可以完成根据区域的id来进行查询
+	 * 
+	 * 如果俩个参数都不传入,则查询所有的
+	 */
 	@Override
 	public List<Star> findAll(String starName, Integer area_id) {
-		// TODO Auto-generated method stub
-		return null;
+		return (List<Star>) JdbcTemplate.exetuteQuery(new IPreparedStatementCallBack() {
+			
+			@Override
+			public PreparedStatement executePst(Connection conn) throws SQLException {
+				String sql = "select * from tbl_star where 1=1";
+				
+				if(null!=starName && starName.trim().length()>0){
+					sql+=" and name like '%"+starName+"%'";
+				}
+				
+				if(null!=area_id){
+					sql+=" and area_id="+area_id;
+				}
+				
+				PreparedStatement pst = conn.prepareStatement(sql);
+				return pst;
+			}
+		}, new IResultSetCallBack() {
+			
+			@Override
+			public Object executeRscb(ResultSet rs) throws SQLException {
+				
+				List<Star> list = new ArrayList<>();
+				
+				while(rs.next()){
+					Star s = new Star();
+					
+					Integer id = rs.getInt("id");
+					String name = rs.getString("name");
+					//处理char
+					char gender = rs.getString("gender").charAt(0);
+					
+					Date birthday = rs.getDate("birthday");
+					
+					String head_img = rs.getString("head_img");
+					
+					String details = rs.getString("details");
+					
+					
+					s.setId(id);
+					s.setName(name);
+					s.setGender(gender);
+					s.setBirthday(birthday);
+					s.setHeadImg(head_img);
+					s.setDetails(details);
+					
+					list.add(s);
+				}
+				
+				
+				return list;
+			}
+		});
 	}
 	
 }

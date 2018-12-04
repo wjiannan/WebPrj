@@ -1,6 +1,7 @@
 package com.cx.dao;
 
 import java.util.Date;
+import java.util.List;
 
 import org.junit.Test;
 
@@ -34,6 +35,15 @@ public class TestStarDao {
 		s.setStarArea(area);
 		
 		dao.save(s);
-	
 	}
+	
+	@Test
+	public void testFindAll(){
+		List<Star> list = dao.findAll("儿", 2);
+		
+		for (Star star : list) {
+			System.out.println(star);
+		}
+	}
+	
 }
