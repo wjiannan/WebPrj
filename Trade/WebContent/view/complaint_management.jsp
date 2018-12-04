@@ -47,16 +47,16 @@
 					<div class="collapse navbar-collapse" id="example-navbar-collapse">
 						<ul class="nav navbar-nav navbar-right">
 							<li>
-								<a href="sellerControl.html">卖家管理</a>
+								<a href="sellercontrol.jsp">卖家管理</a>
 							</li>
 							<li>
-								<a href="BuyerControl.html">买家管理</a>
+								<a href="BuyerControl.jsp">买家管理</a>
 							</li>
 							<li>
-								<a href="Administrator.html">订单管理</a>
+								<a href="Administrator.jsp">订单管理</a>
 							</li>
 							<li class="active">
-								<a href="投诉管理.html">评价及投诉管理</a>
+								<a href="complaint_management.jsp">评价及投诉管理</a>
 							</li>
 						</ul>
 					</div>
@@ -71,7 +71,7 @@
 						</div><br>
 						<hr>
 						<div class="row tu">
-							<img src="../img/管理员头像.png" class="img-thumbnail" style="height: 90px ;">
+							<img src="../img/Administrator.png" class="img-thumbnail" style="height: 90px ;">
 						</div>
 						<div class="row mg">
 							<font size="3">管理员编号：</font><br><br>

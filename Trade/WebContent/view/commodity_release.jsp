@@ -50,7 +50,7 @@
 					<div class="collapse navbar-collapse" id="example-navbar-collapse">
 						<ul class="nav navbar-nav navbar-right">
 							<li>
-								<a href="#">农产品主页</a>
+								<a href="homepage.jsp">农产品主页</a>
 							</li>
 							<li>
 								<a href="#">收藏夹</a>
@@ -78,32 +78,33 @@
 					</div>
 					<!--</div>-->
 				</nav>
+
+				<!--<div class="form-group">-->
 				<div class="col-sm-offset-1 col-sm-10 main">
-					<div class="col-sm-2">
+					<div class="col-sm-2 main">
 						<div class="row my_color">
 							<font size="6">全部功能</font>
-						</div>
-						<br /><br /><br />
+						</div><br><br><br>
 						<div class="row mg">
-							<a href="#">
+							<a href="BuyerWish.jsp">
 								<font size="4">愿望单</font>
 							</a>
 						</div><br />
 						<div class="row mg">
-							<a href="#">
+							<a href="BuyerOrder.jsp">
 								<font size="4">订单记录</font>
 							</a>
 						</div><br />
 						<div class="row mg">
-							<a href="#">
+							<a href="BuyerEvaluate.jsp">
 								<font size="4">评价管理</font>
 							</a>
 						</div><br />
 						<div class="row mg">
-							<a href="#">
+							<a href="refund_service.jsp">
 								<font size="4">退款服务</font>
 							</a>
-						</div>
+						</div><br>
 					</div>
 					
 					<div class="col-sm-10 main " >

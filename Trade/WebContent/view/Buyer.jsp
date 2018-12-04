@@ -60,7 +60,7 @@
 					<div class="collapse navbar-collapse" id="example-navbar-collapse">
 						<ul class="nav navbar-nav navbar-right">
 							<li>
-								<a href="#">农产品主页</a>
+								<a href="homepage.jsp">农产品主页</a>
 							</li>
 							<li>
 								<a href="#">收藏夹</a>
@@ -95,27 +95,27 @@
 						</div>
 						<br /><br /><br />
 						<div class="row mg">
-							<a href="BuyerWish.html">
+							<a href="BuyerWish.jsp">
 								<font size="4">愿望单</font>
 							</a>
 						</div><br />
 						<div class="row mg">
-							<a href="BuyerOrder.html">
+							<a href="BuyerOrder.jsp">
 								<font size="4">订单记录</font>
 							</a>
 						</div><br />
 						<div class="row mg">
-							<a href="BuyerEvaluate.html">
+							<a href="BuyerEvaluate.jsp">
 								<font size="4">评价管理</font>
 							</a>
 						</div><br />
 						<div class="row mg">
-							<a href="退款服务.html">
+							<a href="refund_service.jsp">
 								<font size="4">退款服务</font>
 							</a>
-						</div>
+						</div><br>
 						<div class="row mg">
-							<a >
+							<a href="seller.jsp">
 								<font size="4">我的店铺</font>
 							</a>
 						</div>
@@ -130,7 +130,7 @@
 									<tr style="background-color: skyblue;">
 										<td colspan="2">用户</td>
 										<td colspan="1">
-											<a href="BuyerReceipt.html">我的收货地址</a>
+											<a href="BuyerReceipt.jsp">我的收货地址</a>
 										</td>
 										<td>
 											<a href="https://auth.alipay.com/login/index.htm">我的支付宝</a>
@@ -169,7 +169,7 @@
 										<a href="#">发2只再送鲫鱼2年正宗散养土鸡老母鸡农家公鸡乌鸡草鸡笨鸡走地鸡</a>
 									</div>
 									<div style="float: left;color: orangered; margin-top: 5px;">
-										<span><img src="../img/商家.png" /></span>
+										<span><img src="../img/seller.png" /></span>
 										<a href="#"><small>益顺康旗舰店</small></a>
 									</div>
 									<div class="deal-cnt" style="color: darkgray; float: right; margin-top: 5px;">
@@ -237,21 +237,6 @@
 									</div>
 								</div>
 							</div>
-
-							<!--<table align="center">
-								<tbody>
-									<tr>
-										<td><img src="../img/buyer1.jpg"/></td>
-										<td><img src="../img/buyer2.png"/></td>
-										<td><img src="../img/buyer3.png"/></td>
-									</tr>
-									<tr>
-										<td><img src="../img/buyer4.png"/></td>
-										<td><img src="../img/buyer5.png"/></td>
-										<td><img src="../img/buyer6.png"/></td>
-									</tr>
-								</tbody>
-							</table>-->
 						</div>
 					</div>
 				</div>

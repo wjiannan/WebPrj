@@ -19,7 +19,7 @@
 			}
 		</style>
 	</head>
-	<body>
+	<body style="background-color:lightblue;">
 		
 		<div class="container-fluid bg-info">
 			<div class="row">
@@ -30,16 +30,16 @@
 					<div class="collapse navbar-collapse" id="example-navbar-collapse">
 						<ul class="nav navbar-nav navbar-right">
 							<li>
-								<a href="sellerControl.html">卖家管理</a>
+								<a href="sellercontrol.jsp">卖家管理</a>
 							</li>
 							<li class="active">
-								<a href="BuyerControl.html">买家管理</a>
+								<a href="BuyerControl.jsp">买家管理</a>
 							</li>
 							<li>
-								<a href="Administrator.html">订单管理</a>
+								<a href="Administrator.jsp">订单管理</a>
 							</li>
 							<li>
-								<a href="投诉管理.html">评价及投诉管理</a>
+								<a href="complaint_management.jsp">评价及投诉管理</a>
 							</li>
 						</ul>
 					</div>
@@ -49,17 +49,18 @@
 				<!--<div class="form-group">-->
 				<div class="col-sm-offset-1 col-sm-10 main">
 					<div class="col-sm-2 main">
-						<div class="row my_color">
-							<font size="4">管理员信息</font>
+					<br>
+						<div class="row my_color" >
+							<font size="6">管理员信息</font>
 						</div><br>
 						
 						<div class="row mg">
-							<img src="../img/管理员头像.png" style="max-height: 150px;"<br><br><br>
+							<img src="../img/Administrator.png" style="max-height: 150px;"><br><br><br>
 							<font size="3">管理员编号：95279527</font><br><br>
 							<font size="3">管理员姓名：<br/>张三</font><br><br>
 						</div>
 						
-					</div>
+				</div>
 					<div class="col-sm-10 main">
 						
 						<div class="buyerxx">
@@ -92,9 +93,9 @@
 								</thead>
 								<tbody align="center">
 									<tr>
-										<td>这是用户名</td>
-										<td>11122233333</td>
-										<td>这是一个收货地址</td>
+										<td>aaa</td>
+										<td>13913913139</td>
+										<td>江苏省苏州市张家港市</td>
 										<td>100</td>
 									</tr>
 									
@@ -110,70 +111,32 @@
 								<!--<table class="table" border="1" width="100%" height="75%">-->
 									<thead>
 										<tr>
-											
+											<th>商品样例</th>
 											<th>商品名称</th>
-											<th>介绍</th>
 											<th>数量</th>
 											<th>总价</th>
-											<th>操作</th>
 										</tr>
+										<tr style="max-height: 100px;">
+										<td><img src="../img/seller1.jpg" style="max-height: 100px;"></td>
+										<td><div style="line-height: 100px;">
+											青瓜
+										</div>
+										</td>
+										<td><div style="line-height: 100px;">10</div></td>
+										<td><div style="line-height: 100px;"><p>170</p></div></td>
+									</tr>
+									<tr style="max-height: 100px;">
+										
+										<td><img src="../img/seller2.jpg" style="max-height: 100px;"></td>
+										<td><div style="line-height: 100px;">
+											洋葱
+										</div>
+										<td><div style="line-height: 100px;">10</div></td>
+										<td><div style="line-height: 100px;"><p>130</p></div></td>
+									</tr>
 									</thead>
 									<tbody align="center" >
-										<tr >
-											<td>
-												<p>12121</p>					
-											</td>
-											<td align="middle">3213212313213213213213213213</td>
-											<td vertical-align:middle;>1</td>
-											<td>20</td>
-											<td><a href="#">删除</a></td>
-										</tr>
-										<tr >
-											<td>
-												<p>12121</p>					
-											</td>
-											<td align="middle">3213212313213213213213213213</td>
-											<td vertical-align:middle;>1</td>
-											<td>20</td>
-											<td><a href="#">删除</a></td>
-										</tr>
-										<tr >
-											<td>
-												<p>12121</p>					
-											</td>
-											<td align="middle">3213212313213213213213213213</td>
-											<td vertical-align:middle;>1</td>
-											<td>20</td>
-											<td><a href="#">删除</a></td>
-										</tr>
 										
-										<tr >
-											<td>
-												<p>12121</p>					
-											</td>
-											<td align="middle">3213212313213213213213213213</td>
-											<td vertical-align:middle;>1</td>
-											<td>20</td>
-											<td><a href="#">删除</a></td>
-										</tr>
-										<tr >
-											<td>
-												<p>12121</p>					
-											</td>
-											<td align="middle">3213212313213213213213213213</td>
-											<td vertical-align:middle;>1</td>
-											<td>20</td>
-											<td><a href="#">删除</a></td>
-										</tr>
-										<tr >
-											<td>
-												<p>12121</p>					
-											</td>
-											<td align="middle">3213212313213213213213213213</td>
-											<td vertical-align:middle;>1</td>
-											<td>20</td>
-											<td><a href="#">删除</a></td>
-										</tr>
 									</tbody>
 								</table>
 							</div>

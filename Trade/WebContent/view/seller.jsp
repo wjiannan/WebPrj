@@ -89,27 +89,27 @@
 						</div>
 						<br /><br /><br />
 						<div class="row mg">
-							<a href="#">
+							<a href="BuyerWish.jsp">
 								<font size="4">愿望单</font>
 							</a>
 						</div><br />
 						<div class="row mg">
-							<a href="#">
+							<a href="BuyerOrder.jsp">
 								<font size="4">订单记录</font>
 							</a>
 						</div><br />
 						<div class="row mg">
-							<a href="#">
+							<a href="BuyerEvaluate.jsp">
 								<font size="4">评价管理</font>
 							</a>
 						</div><br />
 						<div class="row mg">
-							<a href="#">
+							<a href="refund_service.jsp">
 								<font size="4">退款服务</font>
 							</a>
-						</div>
+						</div><br/>
 						<div class="row mg">
-							<a >
+							<a class="seller.jsp">
 								<font size="4">我的店铺</font>
 							</a>
 						</div>
@@ -133,11 +133,11 @@
 								<tbody>
 									<tr style="max-height: 100px;">
 										<td><div style="line-height: 100px;"><img src="../img/seller1.jpg" style="max-height: 100px;"></div></td>
-										<td><div style="line-height: 100px;">红辣椒</div></td>
-										<td><div style="line-height: 100px;">这是一个介绍这是一个介绍这是一个介绍这是一个介绍</div></td>
+										<td><div style="line-height: 100px;">青瓜</div></td>
+										<td><div style="line-height: 100px;">精挑细选</div></td>
 										<td><div style="line-height: 100px;">10</div></td>
-										<td><div style="line-height: 100px;">100</div></td>
-										<td><div style="line-height: 100px;">50</div></td>
+										<td><div style="line-height: 100px;">17</div></td>
+										<td><div style="line-height: 100px;">5009</div></td>
 										<td><div style="line-height: 100px;">
 											<select id="condition" class="btn btn-default">
 												<option selected="selected">--选择状态--</option>
@@ -150,27 +150,11 @@
 									
 									<tr style="max-height: 100px;">
 										<td><div style="line-height: 100px;"><img src="../img/seller2.jpg" style="max-height: 100px;"></div></td>
-										<td><div style="line-height: 100px;">青瓜</div></td>
-										<td><div style="line-height: 100px;">这是一个介绍这是一个介绍这是一个介绍这是一个介绍</div></td>
-										<td><div style="line-height: 100px;">10</div></td>
-										<td><div style="line-height: 100px;">100</div></td>
-										<td><div style="line-height: 100px;">50</div></td>
-										<td><div style="line-height: 100px;">
-											<select id="condition" class="btn btn-default">
-												<option selected="selected">--选择状态--</option>
-												<option>销售中</option>
-												<option>下架</option>
-											</select></div>
-											
-										</td>
-									</tr>
-									<tr style="max-height: 100px;">
-										<td><div style="line-height: 100px;"><img src="../img/seller3.jpg" style="max-height: 100px;"></div></td>
 										<td><div style="line-height: 100px;">洋葱</div></td>
-										<td><div style="line-height: 100px;">这是一个介绍这是一个介绍这是一个介绍这是一个介绍</div></td>
-										<td><div style="line-height: 100px;">10</div></td>
-										<td><div style="line-height: 100px;">100</div></td>
-										<td><div style="line-height: 100px;">50</div></td>
+										<td><div style="line-height: 100px;">家乡原产，保质保量</div></td>
+										<td><div style="line-height: 100px;">13</div></td>
+										<td><div style="line-height: 100px;">16</div></td>
+										<td><div style="line-height: 100px;">5330</div></td>
 										<td><div style="line-height: 100px;">
 											<select id="condition" class="btn btn-default">
 												<option selected="selected">--选择状态--</option>
@@ -180,22 +164,8 @@
 											
 										</td>
 									</tr>
-									<tr style="max-height: 100px;">
-										<td><div style="line-height: 100px;"><img src="../img/seller4.jpg" style="max-height: 100px;"></div></td>
-										<td><div style="line-height: 100px;">香菜</div></td>
-										<td><div style="line-height: 100px;">这是一个介绍这是一个介绍这是一个介绍这是一个介绍</div></td>
-										<td><div style="line-height: 100px;">10</div></td>
-										<td><div style="line-height: 100px;">100</div></td>
-										<td><div style="line-height: 100px;">50</div></td>
-										<td><div style="line-height: 100px;">
-											<select id="condition" class="btn btn-default">
-												<option selected="selected">--选择状态--</option>
-												<option>销售中</option>
-												<option>下架</option>
-											</select></div>
-											
-										</td>
-									</tr>
+									
+									
 								</tbody>
 							</table>
 							<div class="row" style="width: 900px;">
