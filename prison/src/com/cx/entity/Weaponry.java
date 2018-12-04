@@ -44,7 +44,7 @@ public class Weaponry {
 
 	@Override
 	public String toString() {
-		return "Weaponry [id=" + id + ", mode=" + mode.getId() + ", user=" + user.getId() + "]";
+		return "Weaponry [id=" + id + ", mode=" + mode.getName() + ", user=" + user.getName() + "]";
 	}
 
 	

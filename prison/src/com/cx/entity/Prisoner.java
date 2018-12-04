@@ -98,9 +98,11 @@ public class Prisoner {
 
 	@Override
 	public String toString() {
-		return "Prisoner [id=" + id + ", name=" + name + ", inDate=" + inDate + ", outDate=" + outDate + ", credit="
-				+ credit + ", status=" + status + ", money=" + money + "]";
+		return "Prisoner [id=" + id + ", name=" + name + ", area=" + area.getAreaName() + ", inDate=" + inDate + ", outDate="
+				+ outDate + ", credit=" + credit + ", status=" + status + ", money=" + money + "]";
 	}
+
+
 	
 	
 }

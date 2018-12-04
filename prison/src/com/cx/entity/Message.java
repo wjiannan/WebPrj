@@ -20,7 +20,16 @@ public class Message {
 	private Integer RecipientId;
 	private String content;
 	private Date createTime;
+	private String status;
 	
+	public String getStatus() {
+		return status;
+	}
+
+	public void setStatus(String status) {
+		this.status = status;
+	}
+
 	public Message() {
 		
 	}
@@ -68,8 +77,9 @@ public class Message {
 	@Override
 	public String toString() {
 		return "Message [id=" + id + ", SenderId=" + SenderId + ", RecipientId=" + RecipientId + ", content=" + content
-				+ ", createTime=" + createTime + "]";
+				+ ", createTime=" + createTime + ", status=" + status + "]";
 	}
-	
+
+
 	
 }
