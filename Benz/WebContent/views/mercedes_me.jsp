@@ -1,13 +1,13 @@
 ﻿<%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-<!DOCTYPE html>
+    <!DOCTYPE html>
 <html>
 	<head>
 		<meta charset="UTF-8">
 		<title>梅赛德斯-奔驰</title>
 		<link rel="stylesheet" type="text/css" href="/Benz/plugins/bootstrap-3.3.7-dist/css/bootstrap.min.css" />
+		<link rel="stylesheet"text/css" href="/Benz/css/button.css" />
 		<link rel="stylesheet" href="/Benz/css/header.css" />
-		<link rel="stylesheet" href="/Benz/css/homepage_body.css" />
 		<link rel="stylesheet" href="/Benz/css/foot.css" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
@@ -21,7 +21,7 @@
 				</a>
 				<div class="myarea">
 					<ul class="breadcrumb" style="background-color: #000000;">
-    					<li><a href="http://localhost:8888/Benz/views/login.jsp">登录</a></li>
+    					<li><a href="http://localhost:8888/Benz/views/loginl.jsp">登录</a></li>
    						<li><a href="http://localhost:8888/Benz/views/register.jsp">注册</a></li>
 					</ul>
 				</div>
@@ -427,96 +427,18 @@
 				</div>
 			</div>
 		</header>
-		
-		<div id="myCarousel" class="carousel slide">
-		    <!-- 轮播（Carousel）指标 -->
-		    <ol class="carousel-indicators">
-		        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-		        <li data-target="#myCarousel" data-slide-to="1"></li>
-		        <li data-target="#myCarousel" data-slide-to="2"></li>
-		        <li data-target="#myCarousel" data-slide-to="3"></li>
-		    </ol>   
-		    <!-- 轮播（Carousel）项目 -->
-		    <div class="carousel-inner">
-		        <div class="item active">
-		            <img src="/Benz/img/homepage/homepage-1.jpg" class="img-responsive mypicture" alt="First slide">
-		            <div class="">
-		            	
-		            </div>
-		        </div>
-		        <div class="item">
-		            <img src="/Benz/img/homepage/homepage-2.jpg" class="img-responsive mypicture" alt="Second slide">
-		        </div>
-		        <div class="item">
-		            <img src="/Benz/img/homepage/homepage-3.jpg" class="img-responsive mypicture" alt="Third slide">
-		        </div>
-		        <div class="item">
-		            <img src="/Benz/img/homepage/homepage-4.jpg" class="img-responsive mypicture" alt="Forth slide">
-		        </div>
-		    </div>
-		    <!-- 轮播（Carousel）导航 -->
-		    <a class="carousel-control left" href="#myCarousel" 
-		       data-slide="prev"> <span _ngcontent-c3="" aria-hidden="true" class="glyphicon glyphicon-chevron-left"></span></a>
-		    <a class="carousel-control right" href="#myCarousel" 
-		       data-slide="next"><span _ngcontent-c3="" aria-hidden="true" class="glyphicon glyphicon-chevron-right"></span></a>
+		<div class="me">
+			<span style="position: absolute;color: white;padding:200px 0PX 0PX 450px ;">
+        		<div align="center"style="width: 700px;">
+        			<span style="font-family:'黑体'; font-size:20PX;font-weight: bold;">为提升您的梅赛德斯-奔驰体验，Mercedes me创新设计了一系列在线服务。通过手机、平板或个人电脑均可访问操作。Mercedes me，贴心更知心，在忙碌的生活为您提供出行的便利。 您的个性化主页将涵盖与您相关的所有个人主题。 无论是娱乐，旅行还是其它生活方式，Mercedes me都将随时随地为您提供更好的专属帮助。</span><br />
+        			<br />
+        			<a href="#"><button class="red button" ;>登陆mercedes me客户端</button></a>
+        		</div>
+        	</span>
+			<img style="width: 1519.3PX;" src="/Benz/img/mercedes me/mercedes-me.jpg" />
 		</div>
-		
-		<div style="position: relative;">
-			<div class="title myfont" style="padding-top: 100px;padding-bottom: 100px;">全部车型</div>
-			<div class="text-center" id="cars">
-				<img src="/Benz/img/homepage/cars.jpg"  class="img-responsive center-block" style="width:75%; " />
-				<div id="div1"><a href="#"><img src="/Benz/img/dark.png" style="width: 100%;height: 483px;"><span style="color: white;">轿车</span></a></div>
-				<div id="div2"><a href="#"><img src="/Benz/img/dark.png" style="width: 100%;height: 483px;"><span style="color: white;">SUV</span></a></div>
-				<div id="div3"><a href="#"><img src="/Benz/img/dark.png" style="width: 100%;height: 483px;"><span style="color: white;">轿跑车&敞篷跑车</span></div></a>
-				<div id="div4"><a href="#"><img src="/Benz/img/dark.png" style="width: 100%;height: 483px;"><span style="color: white;">MPV</span></a></div>
-			</div>
-		</div>
-		
-		<div>
-			<div class="title myfont" style="padding-top: 100px;padding-bottom: 100px;">发现更多</div>
-			<div class="text-center" style="position: relative;">
-				<img width="75%" src="/Benz/img/homepage/footer-1.jpg">
-				<div class="footer" style="position: absolute; top: 0px; left: 189px;">
-					<a href="#"><img src="/Benz/img/dark.png"style="width: 1141px;height: 365px;"></a>
-					<div style="position: absolute; top: 130px;left: 100px;"class="myfont">
-						<p class="myfont" style="color: white;">限时购车方案</p>
-						<p style="color: white;font-size: 16px;" class="myfont" >多种优惠方案，</p>
-						<p style="color: white;font-size: 16px;" class="myfont">助你轻松拥有一辆梅赛德斯-奔驰。</p>
-					</div>
-				</div>
-			</div>
-			<br />
-			<div class="text-center" style="position: absolute;left: 190px; z-index: 10;">
-				<img width="120%" src="/Benz/img/homepage/footer-2.jpg">
-				<div class="footer" style="position: absolute; top: 0px; left: 0px;">
-					<a href="#"><img src="/Benz/img/dark.png"style="width: 745px;height: 360px;"></a>
-					<div style="position: absolute; top: 150px;left: 100px;"class="myfont">
-						<p class="myfont" style="color: white;">加入She's Mercedes</p>
-						<p style="color: white;font-size: 16px;" class="myfont" >发出你的声音, 唤醒女性力量。</p>
-					</div>
-				</div>
-			</div>
-			<br />
-			<div class="text-center" style="position: absolute;left: 760px;top:2200px;">
-				<img width="49.15%"  src="/Benz/img/homepage/footer-3.jpg">
-				<div class="footer" style="position: absolute; top: 0px; left: 192px;">
-					<a href="http://localhost:8888/Benz/views/star.jsp"><img src="/Benz/img/dark.png"style="width: 375px;height: 360px;"></a>
-					<div style="position: absolute; top: 150px;left: 20px;"class="myfont">
-						<p class="myfont" style="color: white;">星友荟</p>
-						<p style="color: white;font-size: 16px;" class="myfont" >尽情表达自我、分享观点、结识新友的星徽社群。</p>
-					</div>
-				</div>
-			</div>
-			<br />
-		</div>
-		<br />
-		<div id="bg" style="margin-top: 360px;">
-			<div style="background-color: rgba(255,255,255,0.7); width: 300px;height: 250px;padding-top: 70px;" class="text-center">
-				<p class="myfont" style="opacity: 1;">预约试驾</p>
-				<p>亲身体验梅赛德斯-奔驰吧。</p>
-				<a href="http://localhost:8888/Benz/views/test_drive.jsp" class="myfont">→Go</a>
-			</div>
-		</div>
+		<script src="/Benz/plugins/jquery/jquery.min.js"></script>
+		<script src="/Benz/plugins/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
 		<div class="p">
 			<div>
 			<ul>
@@ -536,7 +458,7 @@
 					<li class="char2"><a href="#">限时购车新方案</a></li>
 					<li class="char2"><a href="#">查找经销商</a></li>
 				    <li class="char2"><a href="#">金融计算器</a></li>
-					<li class="char2"><a href="http://localhost:8888/Benz/views/test_drive.jsp">预约试驾</a></li>
+					<li class="char2"><a href="http://localhost:8888/Benz/views/test.drive.jsp">预约试驾</a></li>
 					<li class="char2"><a href="#">下载手册</a></li>
 				</ul>
 			</div>
@@ -551,7 +473,7 @@
 					<li class="char2"><a href="#">24小时道路救援</a></li>
 					<li class="char2"><a href="#">召回通知</a></li>
 					<li class="char2"><a href="#">留学回国人员购车业务</a></li>
-					<li class="char2"><a href="#">金融服务</a></li>
+					<li class="char2"><a href="http://localhost:8888/Benz/views/finanical-service.jsp">金融服务</a></li>
 				</ul>
 			</div>
 			<div style="display: inline">
@@ -575,7 +497,7 @@
 		          <span><a href="http://localhost:8888/Benz/views/mercedes_me.jsp">Mercedes me</a></span>
 		          <span><a href="#">星瑞认证二手车</a></span>
 		          <span><a href="#">She'sMercedes</a></span>
-		          <span><a href="#">金融服务</a></span>
+		          <span><a href="http://localhost:8888/Benz/views/finanical-service.jsp">金融服务</a></span>
 			</div>
 			<br />
 			<hr />
@@ -586,12 +508,6 @@
 				<span><a href="#"><img src="/Benz/img/homepage/zhihu_mouse_over.png"width="40px"height="40px"/></a></span>
 			</div>
 		</div>	
-		<script src="/Benz/plugins/jquery/jquery.min.js"></script>
-		<script src="/Benz/plugins/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
-		<script>
-			$('#myCarousel').carousel({
-				interval:2000
-			})
-		</script>
 	</body>
 </html>
+

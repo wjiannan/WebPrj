@@ -1,29 +1,32 @@
 package com.cx.entity;
 
+import java.util.List;
+
 /**
  * 实体类中拥有
- * 1.属性-参考表的列
- * 2.空参构造
- * 3.getter/setter方法
- * 4.toString方法
- *
+ * 1. 属性 - 参考表的列
+ * 2. 空参构造
+ * 3. getter/setter方法
+ * 4. toString 方法
  */
 public class StarArea {
 	//定义一个属性
-	//修饰符 数据类型 数据名称
-	//number(7)-Integer或者int
+	//修饰符 数据类型 属性名称
+	//number(7)- Integer或者int
 	//number(7,2) - Double或者double
 	private Integer id;
 	
 	//varchar2(20) - String
 	private String areaName;
 	
-	//alt+/
+	//一个区域拥有多个明星 - 不要出现在toString方法中
+	private List<Star> star;
+	
+	//alt + /
 	public StarArea() {
 		
 	}
-	
-    //source
+
 	public Integer getId() {
 		return id;
 	}
@@ -38,6 +41,14 @@ public class StarArea {
 
 	public void setAreaName(String areaName) {
 		this.areaName = areaName;
+	}
+
+	public List<Star> getStar() {
+		return star;
+	}
+
+	public void setStar(List<Star> star) {
+		this.star = star;
 	}
 
 	@Override
