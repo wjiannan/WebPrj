@@ -68,8 +68,11 @@ public class Jailer {
 
 	@Override
 	public String toString() {
-		return "Jailer [id=" + id + ", name=" + name + ", salary=" + salary + ", credit=" + credit + "]";
+		return "Jailer [id=" + id + ", name=" + name + ", area=" + area.getAreaName() + ", salary=" + salary + ", credit=" + credit
+				+ "]";
 	}
+
+
 	
 	
 	
