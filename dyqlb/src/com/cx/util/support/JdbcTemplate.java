@@ -9,8 +9,8 @@ import com.cx.util.JdbcUtil;
 import com.cx.util.SimpleDataSource;
 
 public class JdbcTemplate {
-
-	public void execute(IPreparedStatementCallBack pscb) {
+//DML²Ù×÷
+	public static void execute(IPreparedStatementCallBack pscb) {
 		Connection conn = null;
 		PreparedStatement pst = null;
 		try {
@@ -33,8 +33,8 @@ public class JdbcTemplate {
 			JdbcUtil.reLease(conn, pst, null);
 		}
 	}
-
-	public Object exetuteQuery(IPreparedStatementCallBack pscb,
+//DQL²Ù×÷
+	public static Object exetuteQuery(IPreparedStatementCallBack pscb,
 			IResultSetCallBack rscb) {
 		Connection conn = null;
 		PreparedStatement pst = null;

@@ -1,4 +1,4 @@
-package com.cx.entitiy;
+package com.cx.entity;
 
 import java.util.Date;
 
@@ -17,7 +17,7 @@ public class Customer {
     private String lastName;
     private String firstName;
     private String eMail;
-    private Integer numner;
+    private Integer number;
     private String cardNumber;
     private String cardName;
     private Date expirationDate;
@@ -46,11 +46,11 @@ public class Customer {
 	public void setEMail(String eMail) {
 		this.eMail = eMail;
 	}
-	public Integer getNumner() {
-		return numner;
+	public Integer getNumber() {
+		return number;
 	}
-	public void setNumner(Integer numner) {
-		this.numner = numner;
+	public void setNumner(Integer number) {
+		this.number = number;
 	}
 	public String getCardNumber() {
 		return cardNumber;
@@ -79,7 +79,7 @@ public class Customer {
 	@Override
 	public String toString() {
 		return "Customer [id=" + id + ", lastName=" + lastName + ", firstName=" + firstName + ", eMail=" + eMail
-				+ ", numner=" + numner + ", cardNumber=" + cardNumber + ", cardName=" + cardName + ", cvv=" + cvv
+				+ ", number=" + number + ", cardNumber=" + cardNumber + ", cardName=" + cardName + ", cvv=" + cvv
 				+ "]";
 	}
 

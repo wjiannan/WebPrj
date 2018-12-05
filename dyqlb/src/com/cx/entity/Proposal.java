@@ -1,4 +1,4 @@
-package com.cx.entitiy;
+package com.cx.entity;
 /*id NUMBER(7),
   name  VARCHAR2(25),
   e_mail     VARCHAR2(55),
