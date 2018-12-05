@@ -11,7 +11,7 @@ import com.flowers.util.SimpleDataSource;
 
 public class JdbcTemplate {
 
-	public void execute(IPreparedStatementCallBack pscb) {
+	public static void execute(IPreparedStatementCallBack pscb) {
 		Connection conn = null;
 		PreparedStatement pst = null;
 		try {
@@ -35,7 +35,7 @@ public class JdbcTemplate {
 		}
 	}
 
-	public Object exetuteQuery(IPreparedStatementCallBack pscb,
+	public static Object exetuteQuery(IPreparedStatementCallBack pscb,
 			IResultSetCallBack rscb) {
 		Connection conn = null;
 		PreparedStatement pst = null;

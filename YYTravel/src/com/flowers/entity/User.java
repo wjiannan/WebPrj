@@ -19,6 +19,7 @@ public class User implements Serializable{
 	private Integer userSex;
 	private String userEmail;
 	private Date retTime;
+	private String userPhoto;
 	private List<Order> orders;
 	private List<FootPrint> footPrints;
 	public User() {
@@ -84,12 +85,20 @@ public class User implements Serializable{
 	public void setFootPrints(List<FootPrint> footPrints) {
 		this.footPrints = footPrints;
 	}
+	
+	public String getUserPhoto() {
+		return userPhoto;
+	}
+	public void setUserPhoto(String userPhoto) {
+		this.userPhoto = userPhoto;
+	}
 	@Override
 	public String toString() {
 		return "User [userId=" + userId + ", userName=" + userName + ", realName=" + realName + ", passowrd=" + passowrd
 				+ ", userPhone=" + userPhone + ", userSex=" + userSex + ", userEmail=" + userEmail + ", retTime="
-				+ retTime + "]";
+				+ retTime + ", userPhoto=" + userPhoto + "]";
 	}
+	
 	
 	
 	
