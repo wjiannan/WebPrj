@@ -10,14 +10,17 @@ import com.cx.util.SimpleDataSource;
 
 public class JdbcTemplate {
 
-	public void execute(IPreparedStatementCallBack pscb) {
+	public static void execute(IPreparedStatementCallBack
+			
+			
+			iPreparedStatementCallBack) {
 		Connection conn = null;
 		PreparedStatement pst = null;
 		try {
 			conn = SimpleDataSource.getInstatnce().getConnection();
 			conn.setAutoCommit(false);
-			pst = pscb.executePst(conn);
-			//int count = pst.executeUpdate();
+			pst = iPreparedStatementCallBack.executePst(conn);
+			pst.executeUpdate();
 			conn.commit();
 		} catch (SQLException e) {
 			if (null != conn) {
@@ -34,7 +37,7 @@ public class JdbcTemplate {
 		}
 	}
 
-	public Object exetuteQuery(IPreparedStatementCallBack pscb,
+	public static Object exetuteQuery(IPreparedStatementCallBack pscb,
 			IResultSetCallBack rscb) {
 		Connection conn = null;
 		PreparedStatement pst = null;
