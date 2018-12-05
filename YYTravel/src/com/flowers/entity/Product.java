@@ -21,6 +21,7 @@ public class Product implements Serializable{
 	private Integer isCollection;
 	private Integer isThemes;
 	private String home_Title;
+	private String home_Profile;
 	private List<Order> orders;
 	private List<FootPrint> footPrints;
 	public Product() {
@@ -98,13 +99,18 @@ public class Product implements Serializable{
 	public void setHome_Title(String home_Title) {
 		this.home_Title = home_Title;
 	}
+	public String getHome_Profile() {
+		return home_Profile;
+	}
+	public void setHome_Profile(String home_Profile) {
+		this.home_Profile = home_Profile;
+	}
 	public List<Order> getOrders() {
 		return orders;
 	}
 	public void setOrders(List<Order> orders) {
 		this.orders = orders;
 	}
-	
 	public List<FootPrint> getFootPrints() {
 		return footPrints;
 	}
@@ -116,8 +122,9 @@ public class Product implements Serializable{
 		return "Product [productId=" + productId + ", spot=" + spot + ", productName=" + productName + ", image="
 				+ image + ", profile=" + profile + ", bright=" + bright + ", departureDate=" + departureDate
 				+ ", price=" + price + ", isRecommened=" + isRecommened + ", isCollection=" + isCollection
-				+ ", isThemes=" + isThemes + ", home_Title=" + home_Title + "]";
+				+ ", isThemes=" + isThemes + ", home_Title=" + home_Title + ", home_Profile=" + home_Profile + "]";
 	}
+	
 	
 	
 }
