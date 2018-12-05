@@ -28,11 +28,26 @@ public class IndexAction extends HttpServlet{
 	
 	@Override
 	protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		//接受区域的id
+		String area_id = req.getParameter("area_id");
+		
+		//需要将area_id的String类型转换成Integer类型.
+		//注意:如果area_id为null,那么是不能够转换的.
+		
+		Integer aid = null;
+		
+		if(null!=area_id){
+			aid = Integer.valueOf(area_id);
+		}
+		
+		//接受明星的名字
+		String area_name = req.getParameter("area_name");
+		
 		//获取区域的所有的信息
 		List<StarArea> areaList = areaService.findAll();
 		
 		//获取所有的明星信息
-		List<Star> starList = starService.findAll(null, null);
+		List<Star> starList = starService.findAll(area_name, aid);
 		
 		//放入到session作用域中
 		req.getSession().setAttribute("areaList", areaList);

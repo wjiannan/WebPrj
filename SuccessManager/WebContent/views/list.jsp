@@ -13,6 +13,8 @@
 <!--引入bootstrap样式-->
 <link rel="stylesheet" type="text/css"
 	href="/SuccessManager/plugins/dist/css/bootstrap.min.css" />
+<link rel="stylesheet" type="text/css"
+	href="/SuccessManager/css/list.css" />
 </head>
 <body>
 	<div class="container-fluid">
@@ -42,8 +44,26 @@
 
 	<div class="container-fluid">
 		<c:forEach items="${areaList}" var="area">
-			<a href="#">${area.areaName}</a>
+			<a href="/SuccessManager/index?area_id=${area.id}">${area.areaName}</a>
 		</c:forEach>
+	</div>
+
+	<div class="container-fluid">
+		<form action="/SuccessManager/index" class="bs-example bs-example-form" role="form">
+			<div class="row">
+				<div class="col-md-6">
+					<div class="input-group">
+						<input name="area_name" type="text" placeholder="根据姓名模糊查询" class="form-control"> <span
+							class="input-group-btn">
+							<button class="btn btn-success" type="submit">搜索</button>
+						</span>
+					</div>
+					<!-- /input-group -->
+				</div>
+				<!-- /.col-lg-6 -->
+			</div>
+			<!-- /.row -->
+		</form>
 	</div>
 
 	<hr>
@@ -58,8 +78,9 @@
 							<h3>${star.name}</h3>
 							<p>${star.details }</p>
 							<p>
-								<a href="#" class="btn btn-primary" role="button"> 按钮 </a> <a
-									href="#" class="btn btn-default" role="button"> 按钮 </a>
+								<a href="/SuccessManager/del?id=${star.id}" class="text-danger">
+									<span class="glyphicon glyphicon-trash"></span>
+								</a>
 							</p>
 						</div>
 					</div>
