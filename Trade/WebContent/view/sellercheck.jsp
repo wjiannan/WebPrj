@@ -24,8 +24,8 @@
 		</style>
 	</head>
 
-	<body>
-		<div class="container-fluid bg-info">
+	<body style="background-color:#DFF0D8;">
+		<div class="container-fluid bg-info" >
 			<div class="row">
 				<nav class="navbar navbar-inverse my_nav" role="navigation">
 					<div class="container-fluid">
@@ -35,10 +35,10 @@
 						<div class="collapse navbar-collapse" id="example-navbar-collapse">
 							<ul class="nav navbar-nav navbar-right">
 								<li class="active my_active">
-									<a href="#">卖家信息审核</a>
+									<a href="sellercheck.jsp">卖家信息审核</a>
 								</li>
 								<li>
-									<a href="#">全国交易数据</a>
+									<a href="TradeDate.jsp">全国交易数据</a>
 								</li>
 								
 							</ul>
@@ -56,7 +56,7 @@
 										<th>身份证反面</th>
 										<th>用户名</th>
 										<th>联系方式</th>
-										<th>收货地址</th>
+										
 	
 										<th>状态</th>
 									</tr>
@@ -65,73 +65,8 @@
 									<tr style="max-height: 100px;">
 										<td><div style="line-height: 100px;"><img src="../img/卖家审核.jpg" style="max-height: 100px;"></div></td>
 										<td><div style="line-height: 100px;"><img src="../img/卖家审核.jpg" style="max-height: 100px;"></div></td>
-										<td><div style="line-height: 100px;">这是用户名</div></td>
-										<td><div style="line-height: 100px;">11122233333</div></td>
-										<td><div style="line-height: 100px;">这是一个收货地址</div></td>
-										<td>
-											<div style="line-height: 100px;">
-												<select id="condition" class="btn btn-default">
-													<option selected="selected">--审核中--</option>
-													<option>审核通过</option>
-													<option>审核未通过</option>
-												</select>
-											</div>
-										</td>
-									</tr>
-									<tr style="max-height: 100px;">
-										<td><div style="line-height: 100px;"><img src="../img/卖家审核.jpg" style="max-height: 100px;"></div></td>
-										<td><div style="line-height: 100px;"><img src="../img/卖家审核.jpg" style="max-height: 100px;"></div></td>
-										<td><div style="line-height: 100px;">这是用户名</div></td>
-										<td><div style="line-height: 100px;">11122233333</div></td>
-										<td><div style="line-height: 100px;">这是一个收货地址</div></td>
-										<td>
-											<div style="line-height: 100px;">
-												<select id="condition" class="btn btn-default">
-													<option selected="selected">--审核中--</option>
-													<option>审核通过</option>
-													<option>审核未通过</option>
-												</select>
-											</div>
-										</td>
-									</tr>
-									<tr style="max-height: 100px;">
-										<td><div style="line-height: 100px;"><img src="../img/卖家审核.jpg" style="max-height: 100px;"></div></td>
-										<td><div style="line-height: 100px;"><img src="../img/卖家审核.jpg" style="max-height: 100px;"></div></td>
-										<td><div style="line-height: 100px;">这是用户名</div></td>
-										<td><div style="line-height: 100px;">11122233333</div></td>
-										<td><div style="line-height: 100px;">这是一个收货地址</div></td>
-										<td>
-											<div style="line-height: 100px;">
-												<select id="condition" class="btn btn-default">
-													<option selected="selected">--审核中--</option>
-													<option>审核通过</option>
-													<option>审核未通过</option>
-												</select>
-											</div>
-										</td>
-									</tr>
-									<tr style="max-height: 100px;">
-										<td><div style="line-height: 100px;"><img src="../img/卖家审核.jpg" style="max-height: 100px;"></div></td>
-										<td><div style="line-height: 100px;"><img src="../img/卖家审核.jpg" style="max-height: 100px;"></div></td>
-										<td><div style="line-height: 100px;">这是用户名</div></td>
-										<td><div style="line-height: 100px;">11122233333</div></td>
-										<td><div style="line-height: 100px;">这是一个收货地址</div></td>
-										<td>
-											<div style="line-height: 100px;">
-												<select id="condition" class="btn btn-default">
-													<option selected="selected">--审核中--</option>
-													<option>审核通过</option>
-													<option>审核未通过</option>
-												</select>
-											</div>
-										</td>
-									</tr>
-									<tr style="max-height: 100px;">
-										<td><div style="line-height: 100px;"><img src="../img/卖家审核.jpg" style="max-height: 100px;"></div></td>
-										<td><div style="line-height: 100px;"><img src="../img/卖家审核.jpg" style="max-height: 100px;"></div></td>
-										<td><div style="line-height: 100px;">这是用户名</div></td>
-										<td><div style="line-height: 100px;">11122233333</div></td>
-										<td><div style="line-height: 100px;">这是一个收货地址</div></td>
+										<td><div style="line-height: 100px;">aaaa</div></td>
+										<td><div style="line-height: 100px;">13813813838</div></td>
 										
 										<td>
 											<div style="line-height: 100px;">
@@ -146,9 +81,9 @@
 									<tr style="max-height: 100px;">
 										<td><div style="line-height: 100px;"><img src="../img/卖家审核.jpg" style="max-height: 100px;"></div></td>
 										<td><div style="line-height: 100px;"><img src="../img/卖家审核.jpg" style="max-height: 100px;"></div></td>
-										<td><div style="line-height: 100px;">这是用户名</div></td>
-										<td><div style="line-height: 100px;">11122233333</div></td>
-										<td><div style="line-height: 100px;">这是一个收货地址</div></td>
+										<td><div style="line-height: 100px;">bbbb</div></td>
+										<td><div style="line-height: 100px;">13913913139</div></td>
+										
 										<td>
 											<div style="line-height: 100px;">
 												<select id="condition" class="btn btn-default">
@@ -159,22 +94,7 @@
 											</div>
 										</td>
 									</tr>
-									<tr style="max-height: 100px;">
-										<td><div style="line-height: 100px;"><img src="../img/卖家审核.jpg" style="max-height: 100px;"></div></td>
-										<td><div style="line-height: 100px;"><img src="../img/卖家审核.jpg" style="max-height: 100px;"></div></td>
-										<td><div style="line-height: 100px;">这是用户名</div></td>
-										<td><div style="line-height: 100px;">11122233333</div></td>
-										<td><div style="line-height: 100px;">这是一个收货地址</div></td>
-										<td>
-											<div style="line-height: 100px;">
-												<select id="condition" class="btn btn-default">
-													<option selected="selected">--审核中--</option>
-													<option>审核通过</option>
-													<option>审核未通过</option>
-												</select>
-											</div>
-										</td>
-									</tr>
+									
 								</tbody>
 							</table>
 						</div>

@@ -68,7 +68,7 @@
 					<div class="collapse navbar-collapse" id="example-navbar-collapse">
 						<ul class="nav navbar-nav navbar-right">
 							<li>
-								<a href="#">农产品主页</a>
+								<a href="homepage.jsp">农产品主页</a>
 							</li>
 							<li>
 								<a href="#">收藏夹</a>
@@ -99,42 +99,42 @@
 
 				<!--<div class="form-group">-->
 				<div class="col-sm-offset-1 col-sm-10 main">
-					<div class="col-sm-1 main">
+					<div class="col-sm-2 main">
 						<div class="row my_color">
-							<font size="4">全部功能</font>
-						</div>
+							<font size="6">全部功能</font>
+						</div><br><br><br>
 						<div class="row mg">
-							<a href="#">
-								<font size="2">愿望单</font>
+							<a href="BuyerWish.jsp">
+								<font size="4">愿望单</font>
 							</a>
-						</div>
+						</div><br />
 						<div class="row mg">
-							<a href="#">
-								<font size="2">订单记录</font>
+							<a href="BuyerOrder.jsp">
+								<font size="4">订单记录</font>
 							</a>
-						</div>
+						</div><br />
 						<div class="row mg">
-							<a href="#">
-								<font size="2">评价管理</font>
+							<a href="BuyerEvaluate.jsp">
+								<font size="4">评价管理</font>
 							</a>
-						</div>
+						</div><br />
 						<div class="row mg">
-							<a href="#">
-								<font size="2">退款服务</font>
+							<a href="refund_service.jsp">
+								<font size="4">退款服务</font>
 							</a>
-						</div>
+						</div><br>
 						<div class="row mg">
 							<a >
 								<font size="4">我要开店</font>
 							</a>
 						</div>
 					</div>
-					<div class="col-sm-11 main" style="background-image: url(../img/BuyerOrder.jpg);">
+					<div class="col-sm-10 main">
 						<div class="head1">
 							
 						
 							<div class="hd1">
-								<p style="font-size: 21px; margin-top: 19px; color: cadetblue;">商品</p>
+								<p style="font-size: 30px; margin-top: 19px; color: cadetblue;">愿望单</p>
 							</div>
 						
 								<div class="col-sm-6 col-sm-offset-3 hd2">
@@ -153,7 +153,7 @@
 									<tr>
 										
 										<th>商品样例</th>
-										<th>介绍</th>
+										<th>商品名称</th>
 										<th>数量</th>
 										<th>总价</th>
 										<th>操作</th>
@@ -162,71 +162,33 @@
 								</thead>
 								<tbody>
 									<tr style="max-height: 100px;">
-										<td><img src="../img/one.jpg" style="max-height: 100px;"></td>
+										<td><img src="../img/seller1.jpg" style="max-height: 100px;"></td>
 										<td><div style="line-height: 100px;">
-											这是一商品名
+											青瓜
 										</div>
-										
+										</td>
 										<td><div style="line-height: 100px;">10</div></td>
 										
-										</td>
 										
-										<td><div style="line-height: 100px;"><p>100</p></div></td>
-										<td><div style="line-height: 100px;"><button class="btn btn-primary">评价</button></div></td>
+										
+										<td><div style="line-height: 100px;"><p>170</p></div></td>
+										<td><div style="line-height: 100px;"><button class="btn btn-primary">删除</button></div></td>
 									</tr>
 									<tr style="max-height: 100px;">
 										
-										<td><img src="../img/one.jpg" style="max-height: 100px;"></td>
+										<td><img src="../img/seller2.jpg" style="max-height: 100px;"></td>
 										<td><div style="line-height: 100px;">
-											这是一商品名
+											洋葱
 										</div>
 										
 										<td><div style="line-height: 100px;">10</div></td>
 										
 										
-										</td>
 										
-										<td><div style="line-height: 100px;"><p>100</p></div></td>
-										<td><div style="line-height: 100px;"><button class="btn btn-primary">评价</button></div></td>
+										<td><div style="line-height: 100px;"><p>130</p></div></td>
+										<td><div style="line-height: 100px;"><button class="btn btn-primary">删除</button></div></td>
 									</tr>
-									<tr style="max-height: 100px;">
-										<td><img src="../img/one.jpg" style="max-height: 100px;"></td>
-										<td><div style="line-height: 100px;">
-											这是一商品名
-										</div>
-										
-										<td><div style="line-height: 100px;">10</div></td>
-										
-										</td>
-										
-										<td><div style="line-height: 100px;"><p>100</p></div></td>
-										<td><div style="line-height: 100px;"><button class="btn btn-primary">评价</button></div></td>
-									</tr>
-									<tr style="max-height: 100px;">
-										<td><img src="../img/one.jpg" style="max-height: 100px;"></td>
-										<td><div style="line-height: 100px;">
-											这是一商品名
-										</div>
-										
-										<td><div style="line-height: 100px;">10</div></td>
-																		
-										</td>
-										
-										<td><div style="line-height: 100px;"><p>100</p></div></td>
-										<td><div style="line-height: 100px;"><button class="btn btn-primary">评价</button></div></td>
-									</tr>
-									<tr style="max-height: 100px;">
-										<td><img src="../img/one.jpg" style="max-height: 100px;"></td>
-										<td><div style="line-height: 100px;">
-											这是一商品名
-										</div>
-										
-										<td><div style="line-height: 100px;">10</div></td>
-										
-										</td>
-										<td><div style="line-height: 100px;"><p>100</p></div></td>
-										<td><div style="line-height: 100px;"><button class="btn btn-primary">评价</button></div></td>
-									</tr>
+									
 									
 								</tbody>
 							</table>

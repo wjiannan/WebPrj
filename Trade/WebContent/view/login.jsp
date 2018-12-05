@@ -77,7 +77,7 @@
 
 		<script>
 			function register() {
-				window.location.href = 'register.html';
+				window.location.href = "register.jsp";
 			}
 		</script>
 

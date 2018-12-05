@@ -4,7 +4,7 @@
 <html>
 	<head>
 		<meta charset="utf-8" />
-		<title>py网</title>
+		<title>我要开店</title>
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
     	<meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -72,6 +72,9 @@
 			.my-mav{
 				background-color: aliceblue;
 			}
+			.kuang{
+				border:1px solid gray;
+			}
 		</style>
 		
 	</head>
@@ -96,7 +99,7 @@
 					    <div class="collapse navbar-collapse  " id="example-navbar-collapse">
 					        <ul class="nav navbar-nav navbar-right">
 					            <li>
-									<a href="#">农产品主页</a>
+									<a href="homepage.jsp">农产品主页</a>
 								</li>
 								<li>
 									<a href="#">收藏夹</a>
@@ -141,26 +144,26 @@
 							<div style="margin-top: 80px;">
 						
 							<fieldset>
-								<legend align="center" >开店注册</legend>
+								<legend align="center" >开店注册</legend><br>
 							
 								<form class="form-horizontal" role="form" style="text-align:center">
 								  <div class="form-group ">
-								    <label for="firstname" class="col-sm-2 control-label col-sm-offset-1">昵称</label>
+								    <label for="firstname" class="col-sm-2 control-label col-sm-offset-2">昵称</label>
 								    
-								    <div class="col-sm-8 ">
+								    <div class="col-sm-8">
 								      <!--<span class="glyphicon glyphicon-lock form-control-feedback"></span>-->
 								      <input type="text" class="form-control" id="firstname" placeholder="请输入昵称">
 								    </div>
 								  </div>
 								  <div class="form-group">
-								    <label for="lastname" class="col-sm-2 control-label col-sm-offset-1">密码</label>
-								    <div class="col-sm-8">
+								    <label for="lastname" class="col-sm-4 control-label ">二级密码</label>
+								    <div class="col-sm-8 ">
 								      <!--<span class="glyphicon glyphicon-user form-control-feedback"></span>-->
 								      <input type="password" class="form-control" id="lastname" placeholder="请输入密码" >
 								    </div>
 								  </div>
 								  <div class="form-group">
-								    <label for="lastname" class="col-sm-2 control-label col-sm-offset-1">确认密码</label>
+								    <label for="lastname" class="col-sm-4 control-label ">确认密码</label>
 								    <div class="col-sm-8">
 								      <!--<span class="glyphicon glyphicon-user form-control-feedback"></span>-->
 								      <input type="password" class="form-control" id="lastname" placeholder="请确认密码" >
@@ -170,14 +173,14 @@
 								    <div class="col-sm-offset-1 col-sm-10">
 								      <div class="checkbox">
 								        <label>
-								          <input type="checkbox"style="width: 15px; height: 15px;"> &nbsp;记住账号
+								          <input type="checkbox"style="width: 14px; height: 14px;"> &nbsp;<font style="font-size:14px">记住账号</font>
 								        </label>
 								      </div>
 								    </div>
 								  </div>
 								  <div class="form-group">
-								    <div class="col-sm-offset-1 col-sm-10">
-								      <button type="submit" class="btn btn-default">登录</button>
+								    <div class="col-sm-offset-5 col-sm-10">
+								      <button type="submit" class="btn btn-primary col-sm-4"  >注册</button>
 								    </div>
 								  </div>
 								</form>
@@ -189,12 +192,12 @@
 						</div>
 						
 						<div class="shen">
-							<div class="shen1">
+							<div class="shen1 kuang">
 								<div class="pic " >
 									<!--上传图片-->
 									<input type="file" id="file" style="display:none;" onchange="showPreview(this)">
 							    	<!--//修改，这里如果不用onchange，会出现一个小bug,当你提交后，图片只能变一次-->
-									<img src="../img/fjiao.png" width="360px" height="192px" id="img-change">
+									<img src="../img/idendity1.png" width="360px" height="192px" id="img-change">
 									
 							
 							
@@ -203,12 +206,12 @@
 							
 							</div>
 							
-							<div class="shen2">
+							<div class="shen2 kuang">
 								<div class="pic " >
 									<!--上传图片-->
 									<input type="file" id="file1" style="display:none;" onchange="showPreview1(this)">
 							    	<!--//修改，这里如果不用onchange，会出现一个小bug,当你提交后，图片只能变一次-->
-									<img src="../img/fjiao.png" width="360px" height="192px" id="img-change1">
+									<img src="../img/identity2.png" width="360px" height="192px" id="img-change1">
 																							
 								</div>
 																

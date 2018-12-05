@@ -103,22 +103,22 @@
 						</div>
 						<br /><br /><br />
 						<div class="row mg">
-							<a href="#">
+							<a href="BuyerWish.jsp">
 								<font size="4">愿望单</font>
 							</a>
 						</div><br />
 						<div class="row mg">
-							<a href="#">
+							<a href="BuyerOrder.jsp">
 								<font size="4">订单记录</font>
 							</a>
 						</div><br />
 						<div class="row mg">
-							<a href="#">
+							<a href="BuyerEvaluate.jsp">
 								<font size="4">评价管理</font>
 							</a>
 						</div><br />
 						<div class="row mg">
-							<a href="#">
+							<a href="refund_service.jsp">
 								<font size="4">退款服务</font>
 							</a>
 						</div>
